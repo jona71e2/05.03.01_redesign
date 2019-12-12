@@ -310,14 +310,37 @@ img {
 
 
 
+#om {
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
+#om .col {
+    display: flex;
+    flex-wrap: nowrap;
+}
 
 
+#om .text {
+    flex-basis: 600px;
+    flex-grow: 1;
+    padding: 0.9rem;
+}
 
 
+#om .image {
+    flex-basis: 600px;
+    flex-grow: 1;
+}
 
 
 
+@media only screen and (min-width: 900px) {
+    #om .text #om .image {
+        flex-basis: 220px;
+    }
+}
 
 
 
@@ -404,7 +427,17 @@ img {
 
 
 
-/*           Om os              */
+
+
+
+
+
+
+
+
+
+
+/*           Om os SLUT             */
 
 /*           Kontakt os              */
 
