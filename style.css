@@ -179,7 +179,9 @@ img {
     margin: 0 auto;
 }
 
-#startside h1 {}
+#startside h1 {
+    font-size: 2rem;
+}
 
 #startside h2 {}
 
