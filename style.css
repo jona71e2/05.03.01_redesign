@@ -156,27 +156,74 @@ img {
 
 
 /*           Vælg land       slut       */
-/*           Startsiden              */
+/*           Startsiden                 */
 
 
+#splash {
+    width: 100vw;
+    height: 100vh;
+    background-image: url();
+    background-size: cover;
+    max-width: none;
+    background-attachment: fixed;
 
 
+    background-color: antiquewhite;
+    margin: 0 auto;
+}
 
 
+#startside {
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#startside h1 {}
+
+#startside h2 {}
+
+#startside .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#startside .col1 {
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+    align-content: center;
+
+    background-color: aquamarine;
+}
+
+#startside .col1 .image {
+    flex-grow: 1;
+    flex-basis: 100px;
+    padding: 0 0.6rem 0.6rem;
+    margin: 0.8rem;
+    width: 100px;
+    height: 200px;
 
 
+    background-color: indianred;
+}
 
 
+#startside .col2 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
 
+    justify-content: space-around;
+    align-content: center;
 
-
-
-
-
-
-
-
-
+    background-color: aquamarine;
+}
 
 
 
