@@ -541,12 +541,35 @@ img {
 
 /*           Jagtviden              */
 
+
+
 #jagtviden {
     padding: 1rem;
     max-width: 1200px;
     margin: 0 auto;
 }
 
+#jagtviden .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#jagtviden .container {
+    flex-grow: 1;
+    flex-basis: 1000px;
+    flex-direction: row;
+}
+
+
+#jagtviden .content_box {
+    flex-basis: 243px;
+    flex-basis: 1;
+
+    margin: 3px;
+
+
+
+}
 
 
 
