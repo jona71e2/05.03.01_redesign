@@ -584,19 +584,19 @@ img {
 
 #jagtviden .image {
     display: block;
-
-
     background-color: bisque;
-
 }
-
 
 
 #jagtviden .text {
     display: block;
-
     background-color: red;
+}
 
+@media only screen and (min-width: 900px) {
+    #jagtviden .content_box {
+        flex-basis: 200px;
+    }
 }
 
 
