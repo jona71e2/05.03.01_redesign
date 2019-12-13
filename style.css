@@ -161,15 +161,15 @@ img {
 
 #splash {
     width: 100vw;
-    height: 100vh;
-    background-image: url();
+    height: 90vh;
+
     background-size: cover;
+    background-position: 0 35%;
     max-width: none;
     background-attachment: fixed;
 
 
     background-color: antiquewhite;
-    margin: 0 auto;
 }
 
 
