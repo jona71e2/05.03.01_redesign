@@ -16,6 +16,43 @@ img {
 }
 
 
+#menu {
+    list-style-type: none;
+    transition: transform.3s;
+    transform-origin: top left;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #555;
+}
+
+@media only screen and (min-width: 600px) {
+    #menu {
+        opacity: 1;
+        list-style-type: none;
+        transition: transform.3s;
+        transform-origin: top left;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border: 1px solid #555;
+
+    }
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #555;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+
 
 
 
@@ -163,15 +200,15 @@ img {
 
 #splash {
     width: 100vw;
-    height: 100vh;
-    background-image: url();
+    height: 90vh;
+
     background-size: cover;
+    background-position: 0 35%;
     max-width: none;
     background-attachment: fixed;
 
 
     background-color: antiquewhite;
-    margin: 0 auto;
 }
 
 
@@ -216,6 +253,18 @@ img {
     background-color: indianred;
 }
 
+
+#startside .col1 .img1 {
+    background-image: url()
+}
+
+#startside .col1 .img2 {
+    background-image: url()
+}
+
+#startside .col1 .img3 {
+    background-image: url()
+}
 
 #startside .col2 {
     width: 100vw;
@@ -586,19 +635,19 @@ img {
 
 #jagtviden .image {
     display: block;
-
-
     background-color: bisque;
-
 }
-
 
 
 #jagtviden .text {
     display: block;
-
     background-color: red;
+}
 
+@media only screen and (min-width: 900px) {
+    #jagtviden .content_box {
+        flex-basis: 200px;
+    }
 }
 
 
