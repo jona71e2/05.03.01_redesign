@@ -557,7 +557,6 @@ img {
 #jagtviden .container {
     flex-grow: 1;
     flex-basis: 1000px;
-    flex-direction: row;
 }
 
 
