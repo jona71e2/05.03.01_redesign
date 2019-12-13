@@ -16,6 +16,43 @@ img {
 }
 
 
+#menu {
+    list-style-type: none;
+    transition: transform.3s;
+    transform-origin: top left;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #555;
+}
+
+@media only screen and (min-width: 600px) {
+    #menu {
+        opacity: 1;
+        list-style-type: none;
+        transition: transform.3s;
+        transform-origin: top left;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border: 1px solid #555;
+
+    }
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #555;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+
 
 
 
@@ -598,19 +635,19 @@ img {
 
 #jagtviden .image {
     display: block;
-
-
     background-color: bisque;
-
 }
-
 
 
 #jagtviden .text {
     display: block;
-
     background-color: red;
+}
 
+@media only screen and (min-width: 900px) {
+    #jagtviden .content_box {
+        flex-basis: 200px;
+    }
 }
 
 
