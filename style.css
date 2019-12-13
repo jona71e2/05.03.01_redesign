@@ -555,6 +555,7 @@ img {
 }
 
 #jagtviden .container {
+<<<<<<< HEAD
     display: flex;
     flex-wrap: wrap;
 
@@ -562,6 +563,10 @@ img {
     align-content: flex-start;
 
     background-color: aquamarine;
+=======
+    flex-grow: 1;
+    flex-basis: 1000px;
+>>>>>>> origin/master
 }
 
 
@@ -1203,3 +1208,98 @@ img {
 
 
 /*          Klik Forhandler             */
+
+/*---------   Footer indstillinger   -------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------   Footer indstillinger slut   -------------*/
