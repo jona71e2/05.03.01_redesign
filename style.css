@@ -217,6 +217,18 @@ img {
 }
 
 
+#startside .col1 .img1 {
+    background-image: url()
+}
+
+#startside .col1 .img2 {
+    background-image: url()
+}
+
+#startside .col1 .img3 {
+    background-image: url()
+}
+
 #startside .col2 {
     width: 100vw;
     height: 100vh;
