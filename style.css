@@ -555,9 +555,13 @@ img {
 }
 
 #jagtviden .container {
-    flex-grow: 1;
-    flex-basis: 1000px;
-    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+    align-content: flex-start;
+
+    background-color: aquamarine;
 }
 
 
@@ -569,20 +573,26 @@ img {
 
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    flex-direction: column;
+
+}
+
+#jagtviden .image {
+    display: block;
 
 
-
-
-
+    background-color: bisque;
 
 }
 
 
 
+#jagtviden .text {
+    display: block;
 
+    background-color: red;
 
-
+}
 
 
 
