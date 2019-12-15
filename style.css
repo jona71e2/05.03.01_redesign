@@ -880,6 +880,14 @@ li a:hover {
 #produktview_b .image {
     height: 300px;
 
+
+}
+
+#produktview_b .image_view img {
+    height: 366px;
+
+
+
 }
 
 #produktview_b .image img {
@@ -1001,6 +1009,52 @@ li a:hover {
     display: block;
 }
 
+.dropbtn {
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 280px;
+    padding: 0
+}
+
+.dropbtn:hover,
+.dropbtn:focus,
+.dropdown-content a:hover,
+dropdown-content a:hover {
+    background-color: #d3d4d4;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+    flex-grow: 1;
+    flex-basis: 240px;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    width: 100%;
+    overflow: auto;
+    /*    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);*/
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.show {
+    display: block;
+}
+
 .dropbtn2 {
     color: black;
     padding: 16px;
@@ -1045,32 +1099,264 @@ dropdown-content a:hover {
 
 .show {
     display: block;
-}
 
-.height {
-    height: 300px;
-}
-
-@media only screen and (max-width: 375px) {
-    #produktview_b .content_box {
-        flex-basis: 180px;
+    .height {
+        height: 300px;
     }
 
-    .dropbtn,
-    .dropbtn2 {
-        width: 374px;
-        margin-bottom: 7px;
+    @media only screen and (max-width: 375px) {
+        #produktview_b .content_box {
+            flex-basis: 180px;
+        }
+
+        .dropbtn,
+        .dropbtn2 {
+            width: 374px;
+            margin-bottom: 7px;
+        }
+
+        #produktview_b h1 {
+            margin-left: 10px;
+        }
     }
 
-    #produktview_b h1 {
-        margin-left: 10px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*           Produkt view       slut       */
+
+    /*          Klik Produkt             */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*          Klik Produkt             */
+
+    /*          Klik Forhandler             */
+
+    #klik_forhandler .sectionwrapper {
+        display: flex;
+        flex-wrap: wrap;
     }
-}
 
+    #klik_forhandler h1 {
+        text-align: center;
+        font-size: 2rem;
+    }
 
+    #klik_forhandler .col_narrow {
+        flex-grow: 1;
+        flex-basis: 300px;
+        margin: 1vw;
+        padding: 1vw;
+    }
 
+    #klik_forhandler .col_wide {
+        flex-grow: 1;
+        flex-basis: 300px;
+        margin: 1vw;
+        padding: 1vw;
+    }
 
+    .map_container {
+        position: relative;
+        text-align: right;
+        height: 100%;
+        width: 100%;
+    }
 
+    .map_canvas {
+        overflow: hidden;
+        background: none;
+        height: 100%;
+        width: 100%;
+    }
 
 
 
@@ -1163,13 +1449,13 @@ dropdown-content a:hover {
 
 
 
-/*           Produkt view       slut       */
 
-/*          Klik Produkt             */
 
 
 
+    /*          Klik Forhandler             */
 
+    /*---------   Footer indstillinger   -------------*/
 
 
 
@@ -1262,237 +1548,4 @@ dropdown-content a:hover {
 
 
 
-
-/*          Klik Produkt             */
-
-/*          Klik Forhandler             */
-
-#klik_forhandler .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#klik_forhandler h1 {
-    text-align: center;
-    font-size: 2rem;
-}
-
-#klik_forhandler .col_narrow {
-    flex-grow: 1;
-    flex-basis: 300px;
-    margin: 1vw;
-    padding: 1vw;
-}
-
-#klik_forhandler .col_wide {
-    flex-grow: 1;
-    flex-basis: 300px;
-    margin: 1vw;
-    padding: 1vw;
-}
-
-.map_container {
-    position: relative;
-    text-align: right;
-    height: 100%;
-    width: 100%;
-}
-
-.map_canvas {
-    overflow: hidden;
-    background: none;
-    height: 100%;
-    width: 100%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*          Klik Forhandler             */
-
-/*---------   Footer indstillinger   -------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*---------   Footer indstillinger slut   -------------*/
+    /*---------   Footer indstillinger slut   -------------*/
