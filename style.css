@@ -564,17 +564,14 @@ img {
     justify-content: space-around;
     align-content: flex-start;
 
-    background-color: aquamarine;
-
     flex-grow: 1;
     flex-basis: 1000px;
-
 }
 
 
 #jagtviden .content_box {
     flex-grow: 1;
-    flex-basis: 200px;
+    flex-basis: 360px;
     margin: 0.8rem;
     padding: 0 1.2rem 0.5rem;
 
@@ -586,19 +583,23 @@ img {
 
 #jagtviden .image {
     display: block;
-    background-color: bisque;
 }
 
 
 #jagtviden .text {
     display: block;
-    background-color: red;
 }
 
-@media only screen and (min-width: 900px) {
-    #jagtviden .content_box {
-        flex-basis: 200px;
-    }
+#jagtviden p {
+    text-align: center;
+    font-size: 0.7rem;
+    margin: 0.5rem 0 0 0;
+}
+
+#jagtviden h2 {
+    text-align: center;
+    font-size: 1rem;
+    margin: 0.3rem 0 0 0;
 }
 
 
