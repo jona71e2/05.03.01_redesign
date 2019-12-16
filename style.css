@@ -124,7 +124,7 @@ li a:hover {
 /*      Generelle indstillinger SLUT   */
 /*           Vælg land              */
 
-.sectionwrapper {
+#land .sectionwrapper {
     display: flex;
     flex-direction: row;
     align-content: space-between;
@@ -472,7 +472,7 @@ li a:hover {
 
 #om .col {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 
@@ -482,11 +482,26 @@ li a:hover {
     padding: 0.9rem;
 }
 
+#om .kursiv {
+    font-style: italic;
+}
+
 
 #om .image {
     flex-basis: 600px;
     flex-grow: 1;
+    padding: 1rem;
 }
+
+#om h1 {
+    padding: 0 0.9rem;
+}
+
+#om h2 {
+    padding: 0 1.25rem;
+}
+
+#om p {}
 
 
 
