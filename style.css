@@ -884,12 +884,15 @@ li a:hover {
 
 }
 
+/*
+
 #produktview_b .image_view img {
     height: 366px;
 
 
 
 }
+*/
 
 #produktview_b .image img {
     max-width: 100%;
@@ -1097,27 +1100,27 @@ dropdown-content a:hover {
 
 .show {
     display: block;
+}
 
-    .height {
-        height: 300px;
+.height {
+    height: 300px;
+}
+
+@media only screen and (max-width: 375px) {
+    #produktview_b .content_box {
+        flex-basis: 180px;
     }
 
-    @media only screen and (max-width: 375px) {
-        #produktview_b .content_box {
-            flex-basis: 180px;
-        }
-
-        .dropbtn,
-        .dropbtn2 {
-            width: 374px;
-            margin-bottom: 7px;
-        }
-
-        #produktview_b h1 {
-            margin-left: 10px;
-        }
+    .dropbtn,
+    .dropbtn2 {
+        width: 374px;
+        margin-bottom: 7px;
     }
 
+    #produktview_b h1 {
+        margin-left: 10px;
+    }
+}
 
 
 
@@ -1214,159 +1217,160 @@ dropdown-content a:hover {
 
 
 
-    /*           Produkt view       slut       */
 
-    /*          Klik Produkt             */
+/*           Produkt view       slut       */
 
+/*          Klik Produkt             */
 
+#klik_produkt_b .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+#klik_produkt_b .container {
+    display: flex;
+    flex-wrap: wrap;
 
+    flex-grow: 1;
+    flex-basis: 960px;
+    flex-direction: row;
+}
 
 
+#klik_produkt_b .knap {
+    flex-basis: 160px;
+    flex-grow: 1;
 
+    color: black;
+    font-size: 0.8rem;
+}
 
+#klik_produkt_b .col_wide {
+    display: flex;
+    flex-wrap: wrap;
 
+    flex-grow: 2;
+    flex-basis: 810px;
+}
 
+#klik_produkt_b .image {
+    flex-grow: 2;
+    flex-basis: 810px;
 
+}
 
+#klik_produkt_b .image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: scale-down;
 
 
+}
 
+#klik_produkt_b .container_mini {
+    display: flex;
 
+}
 
 
+#klik_produkt_b .container_mini .image {
+    margin: 2px;
+    margin-top: 8px;
+}
 
 
 
+#klik_produkt_b .col_narrow {
+    display: flex;
+    flex-wrap: wrap;
 
+    flex-grow: 1;
+    flex-basis: 270px;
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /*          Klik Produkt             */
-
-    /*          Klik Forhandler             */
-
-    #klik_forhandler .sectionwrapper {
-        display: flex;
-        flex-wrap: wrap;
+/* media ****/
+@media only screen and (min-width: 375px) {
+    #klik_produkt_b .knap {
+        margin: 9px;
+        margin-bottom: 17px;
     }
 
-    #klik_forhandler h1 {
+    #klik_produkt_b h1 {
+        margin-left: 33px;
+        margin-bottom: 0px;
+    }
+
+    #klik_produkt_b .text {
+        margin-left: 33px;
+        margin-right: 33px;
+    }
+
+    #klik_produkt .forhandler_knap {
+        flex-grow: 1;
+        flex-basis: 375px;
+
         text-align: center;
-        font-size: 2rem;
+
+        margin-left: 33px;
+        margin-right: 33px;
+        margin-bottom: 16px;
+        margin-top: 5px;
+        border: 1px solid;
     }
 
-    #klik_forhandler .col_narrow {
-        flex-grow: 1;
-        flex-basis: 300px;
-        margin: 1vw;
-        padding: 1vw;
-    }
-
-    #klik_forhandler .col_wide {
-        flex-grow: 1;
-        flex-basis: 300px;
-        margin: 1vw;
-        padding: 1vw;
-    }
-
-    .map_container {
-        position: relative;
-        text-align: right;
-        height: 100%;
-        width: 100%;
-    }
-
-    .map_canvas {
-        overflow: hidden;
-        background: none;
-        height: 100%;
-        width: 100%;
+    #klik_produkt_b .col_wide {
+        margin-left: 33px;
+        margin-right: 33px;
     }
 
 
 
 
+}
 
+@media only screen and (min-width: 500px)
+/*          Klik Produkt             */
 
+/*          Klik Forhandler             */
 
+#klik_forhandler .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+#klik_forhandler h1 {
+    text-align: center;
+    font-size: 2rem;
+}
 
+#klik_forhandler .col_narrow {
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin: 1vw;
+    padding: 1vw;
+}
 
+#klik_forhandler .col_wide {
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin: 1vw;
+    padding: 1vw;
+}
 
+.map_container {
+    position: relative;
+    text-align: right;
+    height: 100%;
+    width: 100%;
+}
 
+.map_canvas {
+    overflow: hidden;
+    background: none;
+    height: 100%;
+    width: 100%;
+}
 
 
 
@@ -1451,9 +1455,7 @@ dropdown-content a:hover {
 
 
 
-    /*          Klik Forhandler             */
 
-    /*---------   Footer indstillinger   -------------*/
 
 
 
@@ -1465,7 +1467,9 @@ dropdown-content a:hover {
 
 
 
+/*          Klik Forhandler             */
 
+/*---------   Footer indstillinger   -------------*/
 
 
 
@@ -1546,4 +1550,16 @@ dropdown-content a:hover {
 
 
 
-    /*---------   Footer indstillinger slut   -------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------   Footer indstillinger slut   -------------*/
