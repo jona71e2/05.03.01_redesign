@@ -15,6 +15,10 @@ img {
     width: 100%;
 }
 
+header {
+    position: sticky;
+}
+
 
 #menu {
     list-style-type: none;
@@ -22,7 +26,8 @@ img {
     transform-origin: top left;
     display: flex;
     flex-direction: column;
-    border: 1px solid #555;
+    padding-left: 0px;
+
 }
 
 @media only screen and (min-width: 600px) {
@@ -34,8 +39,17 @@ img {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        border: 1px solid #555;
 
+
+
+    }
+
+    #menuknap {
+        opacity: 0;
+    }
+
+    nav {
+        margin-top: 22px;
     }
 }
 
@@ -44,13 +58,26 @@ li a {
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
-    border: 1px solid #555;
+    color: #252617;
+
 }
 
 li a:hover {
-    background-color: #555;
+    background-color: #252617;
     color: white;
 }
+
+#logo {
+    float: left;
+    overflow: hidden;
+    background-image: url(billeder_hojformat/logo/logo.png);
+    background-size: cover;
+    height: 36px;
+    width: 91.35177865612648px;
+
+}
+
+
 
 
 
@@ -1267,7 +1294,7 @@ dropdown-content a:hover {
     flex-wrap: wrap;
 
     flex-grow: 2;
-    flex-basis: 810px;
+    flex-basis: 620px;
 }
 
 #klik_produkt_b .image {
@@ -1290,15 +1317,23 @@ dropdown-content a:hover {
 }
 
 
-#klik_produkt_b .container_mini .image {
+#klik_produkt_b .container_mini .image_mini {
     margin: 2px;
     margin-top: 8px;
+}
+
+#klik_produkt_b .image_mini img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: scale-down;
+
+
 }
 
 
 
 #klik_produkt_b .col_narrow {
-    display: flex;
+
     flex-wrap: wrap;
 
     flex-grow: 1;
@@ -1341,12 +1376,89 @@ dropdown-content a:hover {
         margin-right: 33px;
     }
 
+    #klik_produkt_b .col_wide .image {
+        background-image: url(billeder_hojformat/roar/roar.png);
+        background-size: 100%;
+        height: 464px;
+    }
+
+    #klik_produkt_b .col_wide .image_mini {}
+
 
 
 
 }
 
-@media only screen and (min-width: 500px)
+@media only screen and (min-width: 500px) {
+    #klik_produkt_b .col_wide .image {
+        height: 504px;
+        background-image: url(billeder_bredformat/roar/raor_b.png);
+        background-size: 100%;
+
+    }
+
+    #klik_produkt_b .image_mini {
+        height: 167px;
+    }
+
+    #klik_produkt_b .image_mini img {
+        object-fit: cover;
+        object-position: 50% 25%;
+    }
+
+    #klik_produkt_b .col_narrow {
+        margin-right: 33px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*          Klik Produkt             */
 
 /*          Klik Forhandler             */
