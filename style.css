@@ -263,10 +263,27 @@ li a:hover {
 }
 
 #startside h1 {
+    text-align: center;
     font-size: 2rem;
+
+    font-family: ten-oldstyle, serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
-#startside h2 {}
+#startside a:link {
+    text-decoration: none;
+    color: black;
+}
+
+#startside a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+#startside h2 {
+    text-align: center;
+}
 
 #startside .sectionwrapper {
     display: flex;
@@ -275,54 +292,81 @@ li a:hover {
 
 #startside .col1 {
     width: 100vw;
-    height: 40vh;
+    height: 50vh;
     display: flex;
     flex-wrap: wrap;
+    margin-left: 7.5rem;
 
-    justify-content: space-around;
-    align-content: center;
+    transition: .5s ease;
+    opacity: 1;
+    backface-visibility: hidden;
+
+}
+
+.img1:hover {
+    opacity: 0.3;
+}
+
+.img2:hover {
+    opacity: 0.3;
+}
+
+.img3:hover {
+    opacity: 0.3;
 }
 
 #startside .col1 .image {
     flex-grow: 1;
-    flex-basis: 100px;
+    flex-basis: 200px;
     padding: 0 0.6rem 0.6rem;
-    margin: 0.8rem;
-    width: 400px;
-    height: 250px;
 
-
-    background-color: indianred;
+    height: 360px;
 }
 
 
 #startside .col1 .img1 {
-    background-image: url(nina_billeder_startside/kikkert_taske.JPG);
+    background-image: url(nina_billeder_startside/kikkertholder.png);
     background-repeat: no-repeat;
 }
 
+
 #startside .col1 .img2 {
-    background-image: url(nina_billeder_startside/stol_taske.jpg);
+    background-image: url(nina_billeder_startside/skydestok.png);
     background-repeat: no-repeat;
 }
 
 #startside .col1 .img3 {
-    background-image: url(nina_billeder_startside/taske.jpg);
+    background-image: url(nina_billeder_startside/taske.png);
     background-repeat: no-repeat;
 }
 
 #startside .col2 {
+
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin: 1vw;
+    padding: 1vw;
+
+    height: 80vh;
+    /*
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
-
-    justify-content: space-around;
-    align-content: center;
-
-    background-color: aquamarine;
+*/
 }
 
+#startside .map_container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#startside .map_canvas {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
 
 
 
