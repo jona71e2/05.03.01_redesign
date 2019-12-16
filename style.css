@@ -252,15 +252,15 @@ li a:hover {
 
 #startside .col1 {
     width: 100vw;
-    height: 40vh;
+    height: 50vh;
     display: flex;
     flex-wrap: wrap;
-    margin: 1.5rem;
-    align-content: center;
 
     transition: .5s ease;
     opacity: 1;
     backface-visibility: hidden;
+
+    background-color: aqua;
 }
 
 .img1:hover {
@@ -279,7 +279,7 @@ li a:hover {
     flex-grow: 1;
     flex-basis: 200px;
     padding: 0 0.6rem 0.6rem;
-    margin: 3rem;
+
     height: 360px;
 }
 
@@ -301,17 +301,32 @@ li a:hover {
 }
 
 #startside .col2 {
+
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin: 1vw;
+    padding: 1vw;
+
+    height: 80vh;
+    /*
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
-
-    justify-content: space-around;
-    align-content: center;
-
-    background-color: aquamarine;
+*/
 }
 
+#startside .map_container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#startside .map_canvas {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
 
 
 
