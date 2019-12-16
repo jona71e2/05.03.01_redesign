@@ -77,7 +77,11 @@ li a:hover {
 
 }
 
-
+h1 {
+    font-family: ten-oldstyle, serif;
+    font-weight: 600;
+    font-style: normal;
+}
 
 
 
