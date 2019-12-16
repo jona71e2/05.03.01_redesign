@@ -254,8 +254,6 @@ li a:hover {
 
     justify-content: space-around;
     align-content: center;
-
-    background-color: aquamarine;
 }
 
 #startside .col1 .image {
@@ -263,13 +261,28 @@ li a:hover {
     flex-basis: 100px;
     padding: 0 0.6rem 0.6rem;
     margin: 0.8rem;
-    width: 100px;
-    height: 200px;
+    width: 400px;
+    height: 250px;
 
 
     background-color: indianred;
 }
 
+
+#startside .col1 .img1 {
+    background-image: url(nina_billeder_startside/kikkert_taske.JPG);
+    background-repeat: no-repeat;
+}
+
+#startside .col1 .img2 {
+    background-image: url(nina_billeder_startside/stol_taske.jpg);
+    background-repeat: no-repeat;
+}
+
+#startside .col1 .img3 {
+    background-image: url(nina_billeder_startside/taske.jpg);
+    background-repeat: no-repeat;
+}
 
 #startside .col2 {
     width: 100vw;
@@ -885,6 +898,14 @@ li a:hover {
 #produktview_b .image {
     height: 300px;
 
+
+}
+
+#produktview_b .image_view img {
+    height: 366px;
+
+
+
 }
 
 #produktview_b .image img {
@@ -922,12 +943,9 @@ li a:hover {
     flex-wrap: wrap;
 
     flex-basis: 243px;
-    flex-basis: 1;
+    flex-grow: 1;
 
     margin: 3px;
-
-
-
 }
 
 #produktview_b .image img {
@@ -937,6 +955,30 @@ li a:hover {
 }
 
 /* dropdown menu ****************/
+.hidden {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+.hide {
+    display: none;
+}
+
+
+/*
+@media only screen and (min-width: 600px) {
+    #menu {
+        opacity: 1;
+        list-style-type: none;
+        transition: transform.3s;
+        transform-origin: top left;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+*/
+
+
 .dropbtn {
     color: black;
     padding: 16px;
@@ -963,11 +1005,57 @@ li a:hover {
 
 .dropdown-content {
     display: none;
-    position: absolute;
-    background-color: #f1f1f1;
+    position: relative;
     width: 100%;
     overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    /*    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);*/
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.show {
+    display: block;
+}
+
+.dropbtn {
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 280px;
+    padding: 0
+}
+
+.dropbtn:hover,
+.dropbtn:focus,
+.dropdown-content a:hover,
+dropdown-content a:hover {
+    background-color: #d3d4d4;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+    flex-grow: 1;
+    flex-basis: 240px;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    width: 100%;
+    overflow: auto;
+    /*    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);*/
     z-index: 1;
 }
 
@@ -982,7 +1070,6 @@ li a:hover {
     display: block;
 }
 
-/* menu 2 */
 .dropbtn2 {
     color: black;
     padding: 16px;
@@ -994,7 +1081,9 @@ li a:hover {
 }
 
 .dropbtn2:hover,
-.dropbtn2:focus {
+.dropbtn2:focus,
+.dropdown-content2 a:hover,
+dropdown-content a:hover {
     background-color: #d3d4d4;
 }
 
@@ -1009,11 +1098,10 @@ li a:hover {
 
 .dropdown-content2 {
     display: none;
-    position: absolute;
-    background-color: #f1f1f1;
+    position: relative;
     width: 100%;
     overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    /*    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);*/
     z-index: 1;
 }
 
@@ -1026,11 +1114,26 @@ li a:hover {
 
 .show {
     display: block;
-}
 
+    .height {
+        height: 300px;
+    }
 
+    @media only screen and (max-width: 375px) {
+        #produktview_b .content_box {
+            flex-basis: 180px;
+        }
 
+        .dropbtn,
+        .dropbtn2 {
+            width: 374px;
+            margin-bottom: 7px;
+        }
 
+        #produktview_b h1 {
+            margin-left: 10px;
+        }
+    }
 
 
 
@@ -1125,12 +1228,12 @@ li a:hover {
 
 
 
-/*           Produkt view       slut       */
 
-/*          Klik Produkt             */
 
 
+    /*           Produkt view       slut       */
 
+    /*          Klik Produkt             */
 
 
 
@@ -1225,50 +1328,50 @@ li a:hover {
 
 
 
-/*          Klik Produkt             */
 
-/*          Klik Forhandler             */
 
-#klik_forhandler .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-}
 
-#klik_forhandler h1 {
-    text-align: center;
-    font-size: 2rem;
-}
+    /*          Klik Produkt             */
 
-#klik_forhandler .col_narrow {
-    flex-grow: 1;
-    flex-basis: 300px;
-    margin: 1vw;
-    padding: 1vw;
-}
+    /*          Klik Forhandler             */
 
-#klik_forhandler .col_wide {
-    flex-grow: 1;
-    flex-basis: 300px;
-    margin: 1vw;
-    padding: 1vw;
-}
+    #klik_forhandler .sectionwrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-.map_container {
-    position: relative;
-    text-align: right;
-    height: 100%;
-    width: 100%;
-}
+    #klik_forhandler h1 {
+        text-align: center;
+        font-size: 2rem;
+    }
 
-.map_canvas {
-    overflow: hidden;
-    background: none;
-    height: 100%;
-    width: 100%;
-}
+    #klik_forhandler .col_narrow {
+        flex-grow: 1;
+        flex-basis: 300px;
+        margin: 1vw;
+        padding: 1vw;
+    }
 
+    #klik_forhandler .col_wide {
+        flex-grow: 1;
+        flex-basis: 300px;
+        margin: 1vw;
+        padding: 1vw;
+    }
 
+    .map_container {
+        position: relative;
+        text-align: right;
+        height: 100%;
+        width: 100%;
+    }
 
+    .map_canvas {
+        overflow: hidden;
+        background: none;
+        height: 100%;
+        width: 100%;
+    }
 
 
 
@@ -1362,12 +1465,12 @@ li a:hover {
 
 
 
-/*          Klik Forhandler             */
 
-/*---------   Footer indstillinger   -------------*/
 
 
+    /*          Klik Forhandler             */
 
+    /*---------   Footer indstillinger   -------------*/
 
 
 
@@ -1457,4 +1560,7 @@ li a:hover {
 
 
 
-/*---------   Footer indstillinger slut   -------------*/
+
+
+
+    /*---------   Footer indstillinger slut   -------------*/
