@@ -67,7 +67,7 @@ li a:hover {
     color: white;
 }
 
-#logo {
+#logo_nav {
     float: left;
     overflow: hidden;
     background-image: url(billeder_hojformat/logo/logo.png);
@@ -269,7 +269,7 @@ li a:hover {
     font-family: ten-oldstyle, serif;
     font-weight: 600;
     font-style: normal;
-<<<<<<< HEAD
+    <<<<<<< HEAD
 }
 
 #startside a:link {
@@ -295,8 +295,7 @@ li a:hover {
     color: black;
 }
 
->>>>>>> origin/master
-#startside h2 {
+> > > > > > > origin/master #startside h2 {
     text-align: center;
 }
 
@@ -987,7 +986,6 @@ li a:hover {
 
 }
 
-/*
 
 #produktview_b .image_view img {
     height: 366px;
@@ -995,7 +993,6 @@ li a:hover {
 
 
 }
-*/
 
 #produktview_b .image img {
     max-width: 100%;
