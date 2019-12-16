@@ -220,9 +220,13 @@ li a:hover {
 
 #startside h1 {
     font-size: 2rem;
+    text-align: center;
+
 }
 
-#startside h2 {}
+#startside h2 {
+    text-align: center;
+}
 
 #startside .sectionwrapper {
     display: flex;
@@ -234,36 +238,48 @@ li a:hover {
     height: 40vh;
     display: flex;
     flex-wrap: wrap;
-
-    justify-content: space-around;
+    margin: 1.5rem;
     align-content: center;
+
+    transition: .5s ease;
+    opacity: 1;
+    backface-visibility: hidden;
+}
+
+.img1:hover {
+    opacity: 0.3;
+}
+
+.img2:hover {
+    opacity: 0.3;
+}
+
+.img3:hover {
+    opacity: 0.3;
 }
 
 #startside .col1 .image {
     flex-grow: 1;
-    flex-basis: 100px;
+    flex-basis: 200px;
     padding: 0 0.6rem 0.6rem;
-    margin: 0.8rem;
-    width: 400px;
-    height: 250px;
-
-
-    background-color: indianred;
+    margin: 3rem;
+    height: 360px;
 }
 
 
 #startside .col1 .img1 {
-    background-image: url(nina_billeder_startside/kikkert_taske.JPG);
+    background-image: url(nina_billeder_startside/kikkertholder.png);
     background-repeat: no-repeat;
 }
 
+
 #startside .col1 .img2 {
-    background-image: url(nina_billeder_startside/stol_taske.jpg);
+    background-image: url(nina_billeder_startside/skydestok.png);
     background-repeat: no-repeat;
 }
 
 #startside .col1 .img3 {
-    background-image: url(nina_billeder_startside/taske.jpg);
+    background-image: url(nina_billeder_startside/taske.png);
     background-repeat: no-repeat;
 }
 

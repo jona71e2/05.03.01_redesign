@@ -46,3 +46,5 @@ window.onclick = function (event) {
 
 
 // produktview slut
+
+// Startsiden //
