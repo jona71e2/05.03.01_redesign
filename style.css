@@ -237,8 +237,6 @@ li a:hover {
 
     justify-content: space-around;
     align-content: center;
-
-    background-color: aquamarine;
 }
 
 #startside .col1 .image {
@@ -246,8 +244,8 @@ li a:hover {
     flex-basis: 100px;
     padding: 0 0.6rem 0.6rem;
     margin: 0.8rem;
-    width: 100px;
-    height: 200px;
+    width: 400px;
+    height: 250px;
 
 
     background-color: indianred;
@@ -255,15 +253,18 @@ li a:hover {
 
 
 #startside .col1 .img1 {
-    background-image: url()
+    background-image: url(nina_billeder_startside/kikkert_taske.JPG);
+    background-repeat: no-repeat;
 }
 
 #startside .col1 .img2 {
-    background-image: url()
+    background-image: url(nina_billeder_startside/stol_taske.jpg);
+    background-repeat: no-repeat;
 }
 
 #startside .col1 .img3 {
-    background-image: url()
+    background-image: url(nina_billeder_startside/taske.jpg);
+    background-repeat: no-repeat;
 }
 
 #startside .col2 {
@@ -920,9 +921,6 @@ li a:hover {
     flex-basis: 1;
 
     margin: 3px;
-
-
-
 }
 
 #produktview_b .image img {
