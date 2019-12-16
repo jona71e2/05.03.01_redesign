@@ -47,8 +47,7 @@ window.onclick = function (event) {
 
 // produktview slut
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 //burger menu
 //hvad starter js med?
 window.addEventListener("load", startVises);
@@ -78,9 +77,8 @@ function clickMenuVoek() {
     document.querySelector("#menuknap").classList.remove("hide");
     document.querySelector("#menu").classList.add("hidden");
 }
-=======
+
 // Startsiden //
->>>>>>> origin/master
-=======
+
+
 // Startsiden //
->>>>>>> origin/master
