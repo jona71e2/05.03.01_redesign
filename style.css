@@ -1541,6 +1541,7 @@ dropdown-content a:hover {
     flex-basis: 300px;
     margin: 1vw;
     padding: 1vw;
+    overflow: hidden;
 }
 
 .map_container {
@@ -1548,6 +1549,7 @@ dropdown-content a:hover {
     text-align: right;
     height: 100%;
     width: 100%;
+    padding: 5vw;
 }
 
 .map_canvas {
@@ -1656,7 +1658,55 @@ dropdown-content a:hover {
 
 /*---------   Footer indstillinger   -------------*/
 
+.footer {
+    width: 100%;
+    background-color: #ffffff;
+    /*
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+*/
+    text-align: center;
+    display: flex;
+    /*    padding-top: 5vw;*/
+    color: #252617;
+}
 
+#logo {
+    width: 50%;
+}
+
+
+#footer1 {
+    /*    width: 33.3%;*/
+    min-height: 30px;
+    background-color: #ffffff;
+    text-align: start;
+    font-size: 2rem;
+    flex-basis: 300px;
+}
+
+#footer2 {
+    /*    width: 33.3%;*/
+    min-height: 30px;
+    background-color: #ffffff;
+    overflow: hidden;
+    flex-basis: 300px;
+}
+
+#footer3 {
+    /*    width: 33.3%;*/
+    min-height: 30px;
+    background-color: #ffffff;
+    flex-basis: 300px;
+}
+
+footer {
+    text-align: center;
+    color: #252617;
+}
 
 
 
