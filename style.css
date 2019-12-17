@@ -939,6 +939,14 @@ h2 {
     flex-direction: column;
 }
 
+#jagtviden_site h3 {
+    text-align: start;
+}
+
+#jagtviden_site p {
+    text-align: left;
+}
+
 
 
 
