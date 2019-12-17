@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="kontakt_b">
     <header>
         <nav>
 
@@ -22,9 +22,70 @@
                 <li><a href="forhandler.html">FORHANDLER LISTE</a></li>
                 <li><a href="kontakt.html">KONTAKT OS</a></li>
             </ul>
-
-
         </nav>
+
+        <section id="kontakt">
+            <h1>Kontakt os</h1>
+            <h2>Send os en besked</h2>
+
+            <div class="sectionswrapper">
+
+                <div class="col">
+
+                    <form action="/action_page.php">
+                        <!--
+                        Fornavn: <input type="text" name="FirstName" value=""><br>
+
+                        Efternavn: <input type="text" name="LastName" value=""><br>
+
+                        Telefonnummer: <input type="text" name="FirstName" value=""><br>
+
+                        E-mail: <input type="text" name="FirstName" value=""><br>
+
+                        Emne: <input type="text" name="FirstName" value=""><br>
+
+                        Besked: <input type="text" name="FirstName" value=""><br>
+
+                        <input type="submit" value="Submit">
+
+-->
+                        <ul id="ul_kontakt" class="form-style-1">
+                            <li><label>Fulde navn <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="Fornavn" /> <input type="text" name="field2" class="field-divided" placeholder="Efternavn" /></li>
+                            <li>
+                                <label>Telefonnummer <span class="required">*</span></label>
+                                <input type="email" name="field3" class="field-long" />
+                                <label>E-mail <span class="required">*</span></label>
+                                <input type="email" name="field3" class="field-long" />
+                                <label>Emne</label>
+                                <input type="email" name="field3" class="field-long" />
+                            </li>
+
+                            <li>
+                                <label>Din besked <span class="required">*</span></label>
+                                <textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
+                            </li>
+                            <li>
+                                <input type="submit" value="Submit" />
+                            </li>
+                        </ul>
+
+                    </form>
+                </div>
+                <div class="col">
+                    <div class="image">
+                        <img src="billeder_bredformat/kontakt_os/gustav_med_hund.JPG" alt="Gustav sidder med hund">
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+
+        </section>
+
+
 
 
     </header>
