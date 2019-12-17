@@ -1696,55 +1696,52 @@ dropdown-content a:hover {
 
 /*---------   Footer indstillinger   -------------*/
 
-.footer {
+.footer_container {
     width: 100%;
     background-color: #ffffff;
-    /*
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
-*/
-    text-align: center;
     display: flex;
-    /*    padding-top: 5vw;*/
+    flex-wrap: wrap;
+    justify-content: center;
     color: #252617;
-}
-
-#logo {
-    width: 50%;
 }
 
 
 #footer1 {
-    /*    width: 33.3%;*/
-    min-height: 30px;
-    background-color: #ffffff;
-    text-align: start;
-    font-size: 2rem;
     flex-basis: 300px;
+    flex-grow: 1;
+    margin: 1vw;
+    padding: 1vw;
+    max-width: 400px;
+}
+
+#footer1 li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#footer1 ul {
+    padding-left: 0;
 }
 
 #footer2 {
-    /*    width: 33.3%;*/
-    min-height: 30px;
-    background-color: #ffffff;
-    overflow: hidden;
-    flex-basis: 300px;
+    flex-basis: 600px;
+    flex-grow: 1;
+    margin: 1vw;
+    padding: 1vw;
+    max-width: 400px;
 }
 
-#footer3 {
-    /*    width: 33.3%;*/
-    min-height: 30px;
-    background-color: #ffffff;
-    flex-basis: 300px;
+#footer2 img {
+    width: 70%;
 }
+
 
 footer {
     text-align: center;
     color: #252617;
 }
+
 
 
 
