@@ -83,6 +83,12 @@ h1 {
     font-style: normal;
 }
 
+h2 {
+    font-family: ten-oldstyle, serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
 
 
 
@@ -746,6 +752,8 @@ h1 {
 
     flex-grow: 1;
     flex-basis: 1000px;
+
+    margin: 1.5rem 0 0 0;
 }
 
 
@@ -759,7 +767,15 @@ h1 {
     justify-content: space-between;
     flex-direction: column;
 
+    transition: .5s ease;
+    opacity: 1;
+    backface-visibility: hidden;
 }
+
+#jagtviden .text:hover {
+    opacity: 0.3;
+}
+
 
 #jagtviden .image {
     display: block;
@@ -769,6 +785,7 @@ h1 {
 #jagtviden .text {
     display: block;
 }
+
 
 #jagtviden p {
     text-align: center;
@@ -780,6 +797,20 @@ h1 {
     text-align: center;
     font-size: 1rem;
     margin: 0.3rem 0 0 0;
+}
+
+
+#jagtviden h1 {
+    margin: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#jagtviden .forklaring {
+    text-align: center;
+    margin: 0 2rem 2rem 2rem;
+    font-size: 1.1rem;
+    line-height: 1rem;
 }
 
 
