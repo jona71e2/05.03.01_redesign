@@ -87,10 +87,15 @@ h2 {
     font-family: ten-oldstyle, serif;
     font-weight: 600;
     font-style: normal;
+    margin: 0;
 }
 
 
+p {
+    font-size: 1rem;
+    margin: 0;
 
+}
 
 
 
@@ -364,12 +369,11 @@ h2 {
 #startside .container .infotext {
     flex-grow: 1;
     flex-basis: 100px;
-    padding: 0 0.6rem 0.6rem;
 
     height: 50px;
     width: 241px;
 
-    background-color: aqua;
+    text-align: center;
 }
 
 
