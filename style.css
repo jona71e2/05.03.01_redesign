@@ -961,8 +961,8 @@ h2 {
 #jagtviden_site .image {
     flex-grow: 1;
     flex-basis: 360px;
-    margin: 0.8rem;
-    padding: 0 1.2rem 0.5rem;
+    margin: 0;
+    padding: 0 1rem 1rem 0;
 
 
     justify-content: space-between;
