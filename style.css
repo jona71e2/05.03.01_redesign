@@ -1730,11 +1730,12 @@ dropdown-content a:hover {
 
 .footer_container {
     width: 100%;
-    background-color: #ffffff;
+    background-color: #555936;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    color: #252617;
+    color: #ffffff;
+
 }
 
 
@@ -1750,6 +1751,11 @@ dropdown-content a:hover {
     list-style-type: none;
     margin: 0;
     padding: 0;
+
+}
+
+#footer1 li a {
+    color: #ffffff;
 }
 
 #footer1 ul {
@@ -1770,8 +1776,9 @@ dropdown-content a:hover {
 
 
 footer {
+    background-color: #555936;
     text-align: center;
-    color: #252617;
+    color: #ffffff;
 }
 
 
