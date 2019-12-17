@@ -846,7 +846,26 @@ p {
 }
 
 
+#jagtviden a:link {
+    text-decoration: none;
+    color: black;
+}
 
+#jagtviden a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+
+#jagtviden a:link {
+    text-decoration: none;
+    color: black;
+}
+
+#jagtviden a:visited {
+    text-decoration: none;
+    color: black;
+}
 
 
 
