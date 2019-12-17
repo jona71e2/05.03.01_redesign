@@ -414,7 +414,7 @@ p {
 
     flex-grow: 1;
     flex-basis: 300px;
-    margin: 1vw;
+    margin-bottom: 7vw;
     padding: 1vw;
 
     height: 80vh;
@@ -769,7 +769,7 @@ p {
     background-size: cover;
     background-position: 0 35%;
     max-width: none;
-/*    background-attachment: fixed;*/
+    /*    background-attachment: fixed;*/
     background-image: url(billeder/bil.jpg);
 }
 
