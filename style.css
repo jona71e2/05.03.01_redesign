@@ -27,6 +27,7 @@ header {
     display: flex;
     flex-direction: column;
     padding-left: 0px;
+    font-family: ten-oldstyle, serif;
 
 }
 
@@ -81,12 +82,20 @@ h1 {
     font-family: ten-oldstyle, serif;
     font-weight: 600;
     font-style: normal;
+    font-size: 2rem;
 }
 
 h2 {
     font-family: ten-oldstyle, serif;
     font-weight: 600;
     font-style: normal;
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
     margin: 0;
 }
 
@@ -95,6 +104,7 @@ p {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     margin: 0;
+    line-height: 2rem;
 
 }
 
@@ -541,23 +551,11 @@ p {
 
 #om h1 {
     padding: 0 0.9rem;
-    font-size: 2rem;
 }
 
 #om h2 {
-    font-family: ten-oldstyle, serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 1.4rem;
+    padding: 0 0 1rem 0;
 }
-
-
-#om p {
-    line-height: 1.9rem;
-    font-size: 1.25rem;
-}
-
-
 
 @media only screen and (min-width: 900px) {
     #om .text #om .image {
@@ -824,13 +822,13 @@ p {
 #jagtviden p {
     text-align: center;
     font-size: 0.7rem;
-    margin: 0.5rem 0 0 0;
+    margin: 0;
 }
 
 #jagtviden h2 {
     text-align: center;
     font-size: 1rem;
-    margin: 0.3rem 0 0 0;
+    margin: 0;
 }
 
 
@@ -846,88 +844,6 @@ p {
     font-size: 1.1rem;
     line-height: 1rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -954,7 +870,6 @@ p {
 }
 
 #jagtviden_site .col {
-    justify-content: space-around;
     align-content: flex-start;
 
     display: flex;
@@ -971,6 +886,14 @@ p {
 
     justify-content: space-between;
     flex-direction: column;
+}
+
+#jagtviden_site p {
+    margin: 1rem 0 1.5rem 0;
+}
+
+#jagtviden_site h3 {
+    margin: 1.5rem 0 0.2rem 0;
 }
 
 
@@ -1426,6 +1349,12 @@ dropdown-content a:hover {
 
 /*          Klik Produkt             */
 
+#klik_produkt {
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 #klik_produkt_b .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
@@ -1622,6 +1551,12 @@ dropdown-content a:hover {
 /*          Klik Produkt             */
 
 /*          Klik Forhandler             */
+
+#klik_forhandler {
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 #klik_forhandler .sectionwrapper {
     display: flex;
