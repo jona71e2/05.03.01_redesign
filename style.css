@@ -1435,6 +1435,12 @@ dropdown-content a:hover {
 
 /*          Klik Produkt             */
 
+#klik_produkt {
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 #klik_produkt_b .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
@@ -1631,6 +1637,12 @@ dropdown-content a:hover {
 /*          Klik Produkt             */
 
 /*          Klik Forhandler             */
+
+#klik_forhandler {
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 #klik_forhandler .sectionwrapper {
     display: flex;
