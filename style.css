@@ -763,6 +763,17 @@ p {
 
 /*           Jagtviden              */
 
+#splash_jagtviden {
+    width: 100vw;
+    height: 90vh;
+
+    background-size: cover;
+    background-position: 0 35%;
+    max-width: none;
+/*    background-attachment: fixed;*/
+    background-image: url(billeder/bil.jpg);
+}
+
 
 
 #jagtviden {
