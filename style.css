@@ -767,7 +767,15 @@ h2 {
     justify-content: space-between;
     flex-direction: column;
 
+    transition: .5s ease;
+    opacity: 1;
+    backface-visibility: hidden;
 }
+
+#jagtviden .text:hover {
+    opacity: 0.3;
+}
+
 
 #jagtviden .image {
     display: block;
@@ -777,6 +785,7 @@ h2 {
 #jagtviden .text {
     display: block;
 }
+
 
 #jagtviden p {
     text-align: center;
