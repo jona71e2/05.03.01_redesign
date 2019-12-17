@@ -770,7 +770,11 @@ p {
     background-position: 0 35%;
     max-width: none;
     /*    background-attachment: fixed;*/
+<<<<<<< HEAD
     background-image: url(billeder/bil.jpg);
+=======
+    background-image: url(billeder/kiggert_narrow.jpg);
+>>>>>>> origin/master
 }
 
 
