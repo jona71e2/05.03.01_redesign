@@ -312,19 +312,26 @@ h2 {
     flex-wrap: wrap;
 }
 
-#startside .col1 {
-    width: 100vw;
+#startside .container {
+    width: 300vw;
     height: 70vh;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 7.5rem;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+#startside .boks {
+    flex-grow: 1;
+    flex-basis: 100px;
+
+
+    justify-content: space-between;
+    flex-direction: column;
 
     transition: .5s ease;
     opacity: 1;
     backface-visibility: hidden;
-
-
-
 }
 
 .img1:hover {
@@ -339,32 +346,55 @@ h2 {
     opacity: 0.3;
 }
 
-#startside .col1 .image {
+.img4:hover {
+    opacity: 0.3;
+}
+
+#startside .container .image {
     flex-grow: 1;
-    flex-basis: 200px;
+    flex-basis: 100px;
     padding: 0 0.6rem 0.6rem;
+    display: flex;
+    flex-wrap: wrap;
 
     height: 360px;
-    margin: 3.45rem;
+    width: 241px;
+}
 
+#startside .container .infotext {
+    flex-grow: 1;
+    flex-basis: 100px;
+    padding: 0 0.6rem 0.6rem;
+
+    height: 50px;
+    width: 241px;
+
+    background-color: aqua;
 }
 
 
-#startside .col1 .img1 {
+#startside .container .img1 {
     background-image: url(nina_billeder_startside/kikkertholder.png);
     background-repeat: no-repeat;
 }
 
 
-#startside .col1 .img2 {
+#startside .container .img2 {
     background-image: url(nina_billeder_startside/skydestok.png);
     background-repeat: no-repeat;
 }
 
-#startside .col1 .img3 {
+#startside .container .img3 {
     background-image: url(nina_billeder_startside/taske.png);
     background-repeat: no-repeat;
 }
+
+#startside .container .img4 {
+    background-image: url(nina_billeder_startside/taske.png);
+    background-repeat: no-repeat;
+}
+
+
 
 #startside .col2 {
 
