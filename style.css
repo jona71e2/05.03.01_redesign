@@ -769,8 +769,8 @@ p {
     background-size: cover;
     background-position: 0 35%;
     max-width: none;
-/*    background-attachment: fixed;*/
-    background-image: url(billeder/bil.jpg);
+    /*    background-attachment: fixed;*/
+    background-image: url(billeder/kiggert_narrow.jpg);
 }
 
 
