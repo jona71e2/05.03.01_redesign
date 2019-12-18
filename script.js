@@ -50,35 +50,45 @@ window.onclick = function (event) {
 
 //burger menu
 //hvad starter js med?
-window.addEventListener("load", startVises);
+//window.addEventListener("load", startVises);
 
 // Hvad skal i skrive for at skjule den div?
 
-function startVises() {
-    console.log("startVises");
-    document.querySelector("#menu").addEventListener("click", clickMenuKnap);
+//function startVises() {
+//    console.log("startVises");
+//    document.querySelector("#menu").addEventListener("click", clickMenuKnap);
+//
+//}
+//
+//function clickMenuKnap() {
+//    console.log("clickMenuKnap");
+//    document.querySelector("#menu").classList.remove("hidden");
+//
+//    document.querySelector("#menuknap").classList.add("hide");
+//    document.querySelector("#lukkeknap").classList.remove("hide");
+//    document.querySelector("#lukkeknap").addEventListener("click", clickMenuVoek);
+//
+//
+//}
+//
+//function clickMenuVoek() {
+//    console.log("clickMenuVoek");
+//    document.querySelector("#lukkeknap").classList.add("hide");
+//    document.querySelector("#menuknap").classList.remove("hide");
+//    document.querySelector("#menu").classList.add("hidden");
+//}
+//<<<<<<< HEAD
+//
+//// Startsiden //
+//=======
+//>>>>>>> origin/master
+
+var myVideo = document.getElementById("video1");
+
+function playPause() {
+    if (myVideo.paused)
+        myVideo.play();
+    else
+        myVideo.pause();
 
 }
-
-function clickMenuKnap() {
-    console.log("clickMenuKnap");
-    document.querySelector("#menu").classList.remove("hidden");
-
-    document.querySelector("#menuknap").classList.add("hide");
-    document.querySelector("#lukkeknap").classList.remove("hide");
-    document.querySelector("#lukkeknap").addEventListener("click", clickMenuVoek);
-
-
-}
-
-function clickMenuVoek() {
-    console.log("clickMenuVoek");
-    document.querySelector("#lukkeknap").classList.add("hide");
-    document.querySelector("#menuknap").classList.remove("hide");
-    document.querySelector("#menu").classList.add("hidden");
-}
-<<<<<<< HEAD
-
-// Startsiden //
-=======
->>>>>>> origin/master

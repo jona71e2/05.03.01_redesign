@@ -765,12 +765,12 @@ p {
 
 #om .col {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 
 #om .text {
-    flex-basis: 600px;
+    flex-basis: 550px;
     flex-grow: 1;
     padding: 0.9rem;
 }
@@ -781,7 +781,7 @@ p {
 
 
 #om .image {
-    flex-basis: 600px;
+    flex-basis: 550px;
     flex-grow: 1;
     padding: 1rem;
 }
@@ -794,9 +794,16 @@ p {
     padding: 0 0 1rem 0;
 }
 
-@media only screen and (min-width: 900px) {
-    #om .text #om .image {
-        flex-basis: 220px;
+
+@media only screen and (min-width: 1000px) {
+    #om .text {
+        flex-basis: 200px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #om .image {
+        flex-basis: 200px;
     }
 }
 
@@ -1670,6 +1677,11 @@ dropdown-content a:hover {
         margin-top: -3px;
     }
 
+    #produktview_b .content_box {
+        margin: 6px;
+        flex-basis: 220px;
+    }
+
 
 
 
@@ -1937,6 +1949,239 @@ dropdown-content a:hover {
     }
 
 }
+
+
+/* klik kiggert **************/
+
+
+#klik_produkt_kikkert {
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#klik_produkt_kikkert .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#klik_produkt_kikkert .container {
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-grow: 1;
+    flex-basis: 960px;
+    flex-direction: row;
+}
+
+
+#klik_produkt_kikkert .knap {
+    flex-basis: 160px;
+    flex-grow: 1;
+
+    color: black;
+    font-size: 0.8rem;
+}
+
+#klik_produkt_kikkert .col_wide {
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-grow: 2;
+    flex-basis: 620px;
+}
+
+#klik_produkt_kikkert .image {
+    flex-grow: 2;
+    flex-basis: 810px;
+
+}
+
+#klik_produkt_kikkert .image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: scale-down;
+
+
+}
+
+#klik_produkt_kikkert .container_mini {
+    display: flex;
+
+}
+
+
+#klik_produkt_kikkert .container_mini .image_mini {
+    margin: 2px;
+    margin-top: 8px;
+}
+
+#klik_produkt_kikkert .image_mini img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: scale-down;
+
+
+}
+
+
+
+#klik_produkt_kikkert .col_narrow {
+
+    flex-wrap: wrap;
+
+    flex-grow: 1;
+    flex-basis: 270px;
+
+}
+
+/* media ****/
+@media only screen and (min-width: 375px) {
+    #klik_produkt_kikkert .knap {
+        margin: 9px;
+        margin-bottom: 17px;
+    }
+
+    #klik_produkt_kikkert h1 {
+        margin-left: 33px;
+        margin-bottom: 0px;
+    }
+
+    #klik_produkt_kikkert .text {
+        margin-left: 33px;
+        margin-right: 33px;
+    }
+
+    #klik_produkt_kikkert .forhandler_knap {
+        flex-grow: 1;
+        flex-basis: 375px;
+
+        text-align: center;
+
+        margin-left: 33px;
+        margin-right: 33px;
+        margin-bottom: 16px;
+        margin-top: 5px;
+        background-color: #252617;
+        color: white;
+        font-size: 1.5rem;
+        padding: 8px;
+    }
+
+    #klik_produkt_kikkert .col_wide {
+        margin-left: 33px;
+        margin-right: 33px;
+    }
+
+    #klik_produkt_kikkert .col_wide .image {
+        background-image: url(billeder_hojformat/toke_3/Binocular%20carrying%20system_toke_aaben%202.png);
+        background-size: 100%;
+        height: 464px;
+    }
+
+    #klik_produkt_kikkert .col_wide .image_mini {}
+
+
+
+
+}
+
+@media only screen and (min-width: 500px) {
+    #klik_produkt_kikkert .col_wide .image {
+        height: 478px;
+        background-image: url(billeder_bredformat/kiggert/kiggert_b.png);
+        background-size: 100%;
+
+    }
+
+    #klik_produkt_kikkert button {
+        top: 61vw;
+        left: 54vw;
+        position: absolute;
+    }
+
+    #klik_produkt_kikkert .image_mini {
+        height: 167px;
+    }
+
+    #klik_produkt_kikkert .image_mini img {
+        object-fit: cover;
+        object-position: 50% 25%;
+    }
+
+    #klik_produkt_kikkert .col_narrow {
+        margin-right: 33px;
+    }
+
+    #klik_produkt .forhandler_knap {
+        font-size: 1.5rem;
+        padding: 8px;
+    }
+
+}
+
+#klik_produkt_kikkert #video1 {
+    object-fit: cover;
+    pointer-events: none;
+}
+
+
+
+#klik_produkt_kikkert .overlay {}
+
+#klik_produkt_kikkert .overlay img {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2352,7 +2597,7 @@ footer {
 /* ------------ slags og leverings vilkår ----------------*/
 
 
-/* ------------ forhandlerliste  ----------------*/
+/* ------------ TOPNAV INDSTILLINGER  ----------------*/
 
 
 
@@ -2406,4 +2651,4 @@ footer {
 
 
 
-/* ------------ forhandlerliste SLUT  ----------------*/
+/* ------------ TOPNAV INDSTILLINGER SLUT  ----------------*/
