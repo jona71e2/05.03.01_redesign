@@ -2710,6 +2710,81 @@ footer {
 
 /* ------------ TOPNAV INDSTILLINGER  ----------------*/
 
+.menu_top {
+    background-color: #fff;
+    overflow: hidden;
+
+}
+
+.menu_top a {
+    float: left;
+    display: block;
+    color: #252617;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: ten-oldstyle, serif;
+}
+
+.menu_top a:hover {
+    background-color: #252617;
+    color: white;
+}
+
+#logo_nav {
+
+    background-image: url(billeder/MH_logo.png);
+    background-size: cover;
+    height: 39px;
+    width: 100px;
+}
+
+#burgericon {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .menu_top a:not(:first-child) {
+        display: none;
+    }
+
+    .menu_top a#burgericon {
+        float: right;
+        display: block;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .menu_top.responsive {
+        position: relative;
+    }
+
+    .menu_top.responsive a#burgericon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .menu_top.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .menu_top {
+        display: flex;
+        justify-content: center;
+    }
+}
 
 
 
