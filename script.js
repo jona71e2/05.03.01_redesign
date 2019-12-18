@@ -79,6 +79,3 @@ function clickMenuVoek() {
 }
 
 // Startsiden //
-
-
-// Startsiden //
