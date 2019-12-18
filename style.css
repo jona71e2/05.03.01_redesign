@@ -253,6 +253,7 @@ p {
     #voelg_land .col {
         flex-grow: 0;
         display: block;
+        max-width: 280px;
 
     }
 
@@ -1565,6 +1566,9 @@ dropdown-content a:hover {
     #produktview_b p {
         margin-top: -3px;
     }
+
+
+
 
 
 
