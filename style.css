@@ -17,7 +17,6 @@ img {
 
 header {
     position: sticky;
-    margin-bottom: 20px;
 }
 
 
@@ -2185,13 +2184,6 @@ klik_produkt_b {
     #klik_produkt_kikkert .image_mini img {
         height: 125.2px;
     }
-
-
-
-
-
-
-
 }
 
 @media only screen and (min-width: 500px) {
