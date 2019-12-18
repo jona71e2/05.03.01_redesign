@@ -83,12 +83,20 @@ window.onclick = function (event) {
 //=======
 //>>>>>>> origin/master
 
-var myVideo = document.getElementById("video1");
+/// Kikkert siden ////
 
-function playPause() {
-    if (myVideo.paused)
-        myVideo.play();
-    else
-        myVideo.pause();
+//var myVideo = document.getElementById("video1");
+//
+//function playPause() {
+//    if (myVideo.paused)
+//        myVideo.play();
+//    else
+//        myVideo.pause();
+//
+//}
 
-}
+//document.querySelector("#produktview_b .image_view img").addEventListener("click", klikProdukt);
+//
+//function klikProdukt(){
+//
+//}
