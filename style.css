@@ -389,7 +389,7 @@ p {
 
 #splash {
     width: 100vw;
-    height: 65SSvh;
+    height: 70vh;
 
     background-size: cover;
     background-position: 0 35%;
@@ -406,6 +406,7 @@ p {
 }
 
 /*-----Font-----*/
+
 #startside h1 {
     text-align: center;
     font-size: 2.4rem;
@@ -417,11 +418,23 @@ p {
     font-style: normal;
 }
 
-#startside .workbook_text h1 {
+#startside h2 {
+    text-align: center;
+    font-size: 2.4rem;
+    margin-top: 0;
+    margin-bottom: 2vw;
+
+    font-family: ten-oldstyle, serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/*
+#startside .workbook_text h2 {
     text-align: center;
     font-size: 2rem;
     padding-bottom: 3vw;
-}
+}*/
 
 #startside h2 .workbook_text {
     font-size: 2rem;
@@ -463,13 +476,13 @@ p {
     opacity: 0.8;
 }
 
-#button_workbook a {
+#button_workbook a:visited {
     color: white;
 }
 
 #button_workbook p {
     flex-grow: 1;
-    flex-basis: 100px;
+    flex-basis: 90px;
     width: 300px;
     text-align: center;
 
@@ -479,7 +492,7 @@ p {
     margin-top: 5px;
     color: white;
     background-color: #252617;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 8px;
 
 }
@@ -503,7 +516,7 @@ p {
     flex-grow: 1;
     flex-basis: 100px;
     max-width: 30vw;
-    margin: 0 20px 0 0;
+    margin: 0 80px 0 0;
 }
 
 #startside #infobillede {
@@ -612,7 +625,10 @@ p {
 
 #startside .workbook_billede {
     flex-grow: 1;
-    flex-basis: 90px;
+    flex-basis: 200px;
+    margin: 0 15vw 0 0;
+
+    justify-content: center;
 }
 
 
@@ -621,6 +637,12 @@ p {
     flex-basis: 200px;
 
     align-content: center;
+    margin-top: 8vw;
+}
+
+#startside #button_workbook {
+    margin-top: 5vw;
+    justify-content: center;
 }
 
 /*-----Workbook SLUT-----*/
@@ -1902,6 +1924,10 @@ dropdown-content a:hover {
 
     }
 
+    .forhandler_knap:hover {
+        opacity: 0.8;
+    }
+
     #klik_produkt .forhandler_knap {
         flex-grow: 1;
         flex-basis: 375px;
@@ -2411,6 +2437,12 @@ dropdown-content a:hover {
 
 /*---------   Footer indstillinger   -------------*/
 
+footer {
+    background-color: #252617;
+    text-align: center;
+    color: #ffffff;
+}
+
 .footer_container {
     width: 100%;
     background-color: #252617;
@@ -2421,6 +2453,12 @@ dropdown-content a:hover {
 }
 
 
+
+
+
+
+/* Footer 1 */
+
 #footer1 p {
     font-size: 1.1rem;
     line-height: 2rem;
@@ -2430,72 +2468,131 @@ dropdown-content a:hover {
 
 
 #footer1 img {
-    max-width: 70%;
+    max-width: 90%;
 }
 
 
 #footer1 {
-    flex-basis: 500px;
+    flex-basis: 300px;
     flex-grow: 1;
     margin: 1vw;
-    padding: 1vw;
+    padding: 1vw 1vw 1vw 6vw;
     max-width: 400px;
-
 }
 
+
+
+
+
+
+/* Footer 2 */
 
 #footer2 {
-    flex-basis: 500px;
+    flex-basis: 300px;
     flex-grow: 1;
-    margin: 1vw;
-    padding: 1vw;
+    margin: 1vw 0 1vw 1vw;
+    padding: 1vw 0 1vw 5vw;
+    max-width: 500px;
+
+    text-align: center;
+}
+
+
+#footer2 img {
+    width: 100%;
+}
+
+#footer2 h1 {
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer 3 */
+
+#footer3 {
+    flex-basis: 300px;
+    flex-grow: 1;
+    margin: 1vw 1vw 1vw 0;
+    padding: 1vw 1vw 1vw 9vw;
     max-width: 300px;
-
 }
 
-#footer2 a {
-    padding: 0 0 1rem 0;
-}
-
-
-#footer2 li {
+#footer3 li {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
 
-#footer2 li a {
+#footer3 li a {
+    color: #ffffff;
+}
+
+#footer3 a {
+    padding: 0 0 1rem 0;
+    font-size: 0.9rem;
+}
+
+
+#footer3 ul {
+    padding-left: 0;
+}
+
+#footer3 h1 {
+    font-size: 1.2rem;
+}
+
+
+
+/* Footer 4 */
+
+#footer4 {
+    flex-basis: 300px;
+    flex-grow: 1;
+    margin: 1vw;
+    padding: 1vw;
+    max-width: 300px;
+}
+
+#footer4 h1 {
+    font-size: 1.2rem;
+}
+
+#footer4 a {
+    padding: 0 0 1rem 0;
+    font-size: 0.9rem;
+}
+
+
+#footer4 li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+#footer4 li a {
     color: #ffffff;
 }
 
 
-#footer2 ul {
+#footer4 ul {
     padding-left: 0;
 }
 
 
-#footer3 {
-    flex-basis: 500px;
-    flex-grow: 1;
-    margin: 1vw;
-    padding: 1vw;
-    max-width: 400px;
 
-    text-align: center;
-}
-
-
-#footer3 img {
-    width: 70%;
-}
-
-
-footer {
-    background-color: #252617;
-    text-align: center;
-    color: #ffffff;
-}
 
 
 
@@ -2604,62 +2701,9 @@ footer {
 
 #levering_b h1 {
     text-align: center;
-
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#levering_b .footer
 /* ------------ slags og leverings vilkår ----------------*/
 
 
