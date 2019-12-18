@@ -1934,7 +1934,7 @@ dropdown-content a:hover {
 
 }
 
-#produktview_b a,
+#produktview_b .text a,
 klik_produkt_b {
     text-decoration: none;
     color: black;
@@ -2092,7 +2092,7 @@ klik_produkt_b {
 #klik_produkt_kikkert .image img {
     max-width: 100%;
     max-height: 100%;
-/*    object-fit: scale-down;*/
+    /*    object-fit: scale-down;*/
 
 
 }
