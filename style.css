@@ -389,7 +389,7 @@ p {
 
 #splash {
     width: 100vw;
-    height: 65SSvh;
+    height: 70vh;
 
     background-size: cover;
     background-position: 0 35%;
@@ -463,13 +463,13 @@ p {
     opacity: 0.8;
 }
 
-#button_workbook a {
+#button_workbook a:visited {
     color: white;
 }
 
 #button_workbook p {
     flex-grow: 1;
-    flex-basis: 100px;
+    flex-basis: 90px;
     width: 300px;
     text-align: center;
 
@@ -479,7 +479,7 @@ p {
     margin-top: 5px;
     color: white;
     background-color: #252617;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 8px;
 
 }
@@ -503,7 +503,7 @@ p {
     flex-grow: 1;
     flex-basis: 100px;
     max-width: 30vw;
-    margin: 0 20px 0 0;
+    margin: 0 80px 0 0;
 }
 
 #startside #infobillede {
@@ -612,7 +612,10 @@ p {
 
 #startside .workbook_billede {
     flex-grow: 1;
-    flex-basis: 90px;
+    flex-basis: 200px;
+    margin: 0 15vw 0 0;
+
+    justify-content: center;
 }
 
 
@@ -621,6 +624,12 @@ p {
     flex-basis: 200px;
 
     align-content: center;
+    margin-top: 8vw;
+}
+
+#startside #button_workbook {
+    margin-top: 5vw;
+    justify-content: center;
 }
 
 /*-----Workbook SLUT-----*/
