@@ -495,16 +495,21 @@ p {
 #startside #container_info {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10vw;
 }
 
 #startside #infoboks {
     flex-grow: 1;
-    flex-basis: 200px;
+    flex-basis: 100px;
+    max-width: 30vw;
+    margin: 0 20px 0 0;
 }
 
 #startside #infobillede {
+    max-width: 30vw;
     flex-grow: 1;
-    flex-basis: 200px;
+    flex-basis: 100px;
 }
 
 /*-----infoboks slut-----*/
@@ -929,6 +934,7 @@ p {
 #kontakt_b .sectionswrapper {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 60px;
 }
 
 #kontakt_b .col {
@@ -1113,7 +1119,7 @@ select {
     background: #ccc;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
     .topnav .search-container {
         float: none;
     }
@@ -1131,6 +1137,12 @@ select {
 
     .topnav input[type=text] {
         border: 1px solid #ccc;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    #kontakt_b .image {
+        margin-right: 0;
     }
 }
 
@@ -1868,6 +1880,11 @@ dropdown-content a:hover {
 
 }
 
+#produktview_b a {
+    text-decoration: none;
+    color: black;
+}
+
 /* media ****/
 @media only screen and (min-width: 375px) {
     #klik_produkt_b .knap {
@@ -1882,7 +1899,7 @@ dropdown-content a:hover {
 
     #klik_produkt_b .text {
         margin-left: 33px;
-        margin-right: 33px;
+
     }
 
     #klik_produkt .forhandler_knap {
@@ -1955,7 +1972,10 @@ dropdown-content a:hover {
     padding: 1rem;
     max-width: 1200px;
     margin: 0 auto;
+
 }
+
+
 
 #klik_produkt_kikkert .sectionwrapper {
     display: flex;
@@ -1992,7 +2012,10 @@ dropdown-content a:hover {
     flex-grow: 2;
     flex-basis: 810px;
 
+
 }
+
+
 
 #klik_produkt_kikkert .image img {
     max-width: 100%;
@@ -2032,6 +2055,11 @@ dropdown-content a:hover {
 
 }
 
+#klik_produkt_kikkert a {
+    text-decoration: none;
+    color: black;
+}
+
 /* media ****/
 @media only screen and (min-width: 375px) {
     #klik_produkt_kikkert .knap {
@@ -2046,7 +2074,7 @@ dropdown-content a:hover {
 
     #klik_produkt_kikkert .text {
         margin-left: 33px;
-        margin-right: 33px;
+
     }
 
     #klik_produkt_kikkert .forhandler_knap {
@@ -2085,15 +2113,15 @@ dropdown-content a:hover {
 
 @media only screen and (min-width: 500px) {
     #klik_produkt_kikkert .col_wide .image {
-        height: 478px;
+        height: 452px;
         background-image: url(billeder_bredformat/kiggert/kiggert_b.png);
         background-size: 100%;
 
     }
 
     #klik_produkt_kikkert button {
-        top: 61vw;
-        left: 54vw;
+        top: 56vw;
+        left: 51vw;
         position: absolute;
     }
 
@@ -2115,11 +2143,19 @@ dropdown-content a:hover {
         padding: 8px;
     }
 
+    #klik_produkt_kikkert .text {
+        width: 324px;
+    }
+
+    #klik_produkt_kikkert p {
+        margin-bottom: 54px;
+    }
+
 }
 
 #klik_produkt_kikkert #video1 {
     object-fit: cover;
-    pointer-events: none;
+    /*    pointer-events: none;*/
 }
 
 
