@@ -1039,6 +1039,7 @@ select {
 
 /*           Jagtviden              */
 
+/*
 #splash_jagtviden {
     width: 100vw;
     height: 90vh;
@@ -1047,6 +1048,17 @@ select {
     background-position: 0 35%;
     max-width: none;
     background-image: url(billeder/kiggert_narrow.jpg);
+    background-attachment: fixed;
+        background-position: 50% 50%;
+}
+*/
+
+#jagtviden .splash_image {
+    /*
+    display: flex;
+    flex-wrap: wrap;
+*/
+    position: fixed;
 }
 
 
