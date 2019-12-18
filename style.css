@@ -476,16 +476,21 @@ p {
 #startside #container_info {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10vw;
 }
 
 #startside #infoboks {
     flex-grow: 1;
-    flex-basis: 200px;
+    flex-basis: 100px;
+    max-width: 30vw;
+    margin: 0 20px 0 0;
 }
 
 #startside #infobillede {
+    max-width: 30vw;
     flex-grow: 1;
-    flex-basis: 200px;
+    flex-basis: 100px;
 }
 
 /*-----infoboks slut-----*/
