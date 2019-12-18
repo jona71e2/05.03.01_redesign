@@ -232,6 +232,7 @@ p {
         max-height: 100%;
         object-fit: cover;
         object-position: 50% 42%;
+        pointer-events: none;
     }
 }
 
@@ -241,6 +242,7 @@ p {
         max-height: 100%;
         object-fit: cover;
         object-position: 50% 42%;
+
     }
 
     #vaelg_land .land {
@@ -275,18 +277,9 @@ p {
 #vaelg_landn a:visited {
     text-decoration: none;
     color: black;
+    background-color: #252617;
 }
 
-
-#vaelg_land a:link {
-    text-decoration: none;
-    color: black;
-}
-
-#vaelg_land a:visited {
-    text-decoration: none;
-    color: black;
-}
 
 #vaelg_land a:hover {
     background-color: #252617;
