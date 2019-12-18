@@ -77,3 +77,8 @@ function clickMenuVoek() {
     document.querySelector("#menuknap").classList.remove("hide");
     document.querySelector("#menu").classList.add("hidden");
 }
+<<<<<<< HEAD
+
+// Startsiden //
+=======
+>>>>>>> origin/master
