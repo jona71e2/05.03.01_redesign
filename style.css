@@ -406,6 +406,7 @@ p {
 }
 
 /*-----Font-----*/
+
 #startside h1 {
     text-align: center;
     font-size: 2.4rem;
@@ -417,11 +418,23 @@ p {
     font-style: normal;
 }
 
-#startside .workbook_text h1 {
+#startside h2 {
+    text-align: center;
+    font-size: 2.4rem;
+    margin-top: 0;
+    margin-bottom: 2vw;
+
+    font-family: ten-oldstyle, serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/*
+#startside .workbook_text h2 {
     text-align: center;
     font-size: 2rem;
     padding-bottom: 3vw;
-}
+}*/
 
 #startside h2 .workbook_text {
     font-size: 2rem;
@@ -1909,6 +1922,10 @@ dropdown-content a:hover {
     #klik_produkt_b .text {
         margin-left: 33px;
 
+    }
+
+    .forhandler_knap:hover {
+        opacity: 0.8;
     }
 
     #klik_produkt .forhandler_knap {
