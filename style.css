@@ -1050,6 +1050,7 @@ select {
 
 /*           Jagtviden              */
 
+/*
 #splash_jagtviden {
     width: 100vw;
     height: 90vh;
@@ -1057,10 +1058,18 @@ select {
     background-size: cover;
     background-position: 0 35%;
     max-width: none;
-    /*    background-attachment: fixed;*/
-    <<<<<<< HEAD background-image: url(billeder/bil.jpg);
-    =======background-image: url(billeder/kiggert_narrow.jpg);
-    > > > > > > > origin/master
+    background-image: url(billeder/kiggert_narrow.jpg);
+    background-attachment: fixed;
+        background-position: 50% 50%;
+}
+*/
+
+#jagtviden .splash_image {
+    /*
+    display: flex;
+    flex-wrap: wrap;
+*/
+    position: fixed;
 }
 
 
@@ -1216,71 +1225,14 @@ select {
     margin: 1.5rem 0 0.2rem 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#jagtviden_site .dato {
+    font-size: 0.7rem;
+    margin: 0;
+}
+
+#jagtviden_site h1 {
+    margin: 0 0 1rem 0;
+}
 
 
 
@@ -1292,6 +1244,12 @@ select {
 /*           Klik Jagtviden              */
 
 /*           Produkt view              */
+
+
+
+
+
+
 
 #produktview_b #produktview {
     /*    max-width: 1200px;*/
@@ -2274,3 +2232,60 @@ footer {
 
 
 /* ------------ slags og leverings vilkår ----------------*/
+
+
+/* ------------ forhandlerliste  ----------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------ forhandlerliste SLUT  ----------------*/
