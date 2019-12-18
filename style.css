@@ -1142,6 +1142,20 @@ select {
     background: #ccc;
 }
 
+
+
+@media screen and (min-width: 375px) {
+    #kontakt_b .image {
+        margin-right: 0;
+    }
+
+    #kontakt_b .col {
+        margin-bottom: 30px;
+    }
+
+
+}
+
 @media screen and (min-width: 600px) {
     .topnav .search-container {
         float: none;
@@ -1161,11 +1175,9 @@ select {
     .topnav input[type=text] {
         border: 1px solid #ccc;
     }
-}
 
-@media screen and (min-width: 375px) {
     #kontakt_b .image {
-        margin-right: 0;
+        margin-right: 33px;
     }
 }
 
@@ -1450,12 +1462,7 @@ select {
 }
 
 
-#produktview_b .image_view img {
-    height: 366px;
 
-
-
-}
 
 #produktview_b .image img {
     max-width: 100%;
@@ -1671,10 +1678,27 @@ dropdown-content a:hover {
     .dropbtn2 {
         width: 374px;
         margin-bottom: 7px;
+        background-color: white;
     }
 
     #produktview_b h1 {
         margin-left: 10px;
+    }
+
+    #produktview_b .col_wide {
+        margin-right: 0;
+    }
+
+    #produktview_b p {
+        margin-top: -4px;
+    }
+
+    #produktview_b h3 {
+        margin-left: 12px;
+    }
+
+    #produktview_b .image {
+        margin-bottom: 40px;
     }
 }
 
@@ -1712,6 +1736,13 @@ dropdown-content a:hover {
     #produktview_b .content_box {
         margin: 6px;
         flex-basis: 220px;
+    }
+
+    #produktview_b .image_view img {
+        height: 366px;
+
+
+
     }
 
 
@@ -1903,7 +1934,8 @@ dropdown-content a:hover {
 
 }
 
-#produktview_b a {
+#produktview_b a,
+klik_produkt_b {
     text-decoration: none;
     color: black;
 }
@@ -1922,6 +1954,8 @@ dropdown-content a:hover {
 
     #klik_produkt_b .text {
         margin-left: 33px;
+        margin-right: 33px;
+        margin-bottom: 33px;
 
     }
 
@@ -1945,10 +1979,7 @@ dropdown-content a:hover {
         padding: 8px;
     }
 
-    #klik_produkt_b .col_wide {
-        margin-left: 33px;
-        margin-right: 33px;
-    }
+
 
     #klik_produkt_b .col_wide .image {
         background-image: url(billeder_hojformat/roar/roar.png);
@@ -1956,7 +1987,9 @@ dropdown-content a:hover {
         height: 464px;
     }
 
-    #klik_produkt_b .col_wide .image_mini {}
+    #klik_produkt {
+        padding: 0;
+    }
 
 
 
@@ -1989,7 +2022,19 @@ dropdown-content a:hover {
         padding: 8px;
     }
 
+    #klik_produkt_b .col_wide {
+        margin-left: 33px;
+        margin-right: 33px;
+    }
+
+    #klik_produkt_b .container .col_wide #roar_imag {
+        height: 452px;
+        background-image: url(billeder_bredformat/roar/raor_b.png);
+        background-size: 100%;
+    }
 }
+
+
 
 
 /* klik kiggert **************/
@@ -2047,7 +2092,7 @@ dropdown-content a:hover {
 #klik_produkt_kikkert .image img {
     max-width: 100%;
     max-height: 100%;
-    object-fit: scale-down;
+/*    object-fit: scale-down;*/
 
 
 }
@@ -2087,6 +2132,8 @@ dropdown-content a:hover {
     color: black;
 }
 
+
+
 /* media ****/
 @media only screen and (min-width: 375px) {
     #klik_produkt_kikkert .knap {
@@ -2101,6 +2148,8 @@ dropdown-content a:hover {
 
     #klik_produkt_kikkert .text {
         margin-left: 33px;
+        margin-right: 33px;
+        margin-bottom: 33px;
 
     }
 
@@ -2120,10 +2169,7 @@ dropdown-content a:hover {
         padding: 8px;
     }
 
-    #klik_produkt_kikkert .col_wide {
-        margin-left: 33px;
-        margin-right: 33px;
-    }
+
 
     #klik_produkt_kikkert .col_wide .image {
         background-image: url(billeder_hojformat/toke_3/Binocular%20carrying%20system_toke_aaben%202.png);
@@ -2131,7 +2177,16 @@ dropdown-content a:hover {
         height: 464px;
     }
 
-    #klik_produkt_kikkert .col_wide .image_mini {}
+    #klik_produkt_kikkert {
+        padding: 0;
+    }
+
+    #klik_produkt_kikkert .image_mini img {
+        height: 125.2px;
+    }
+
+
+
 
 
 
@@ -2159,6 +2214,7 @@ dropdown-content a:hover {
     #klik_produkt_kikkert .image_mini img {
         object-fit: cover;
         object-position: 50% 25%;
+        height: auto;
     }
 
     #klik_produkt_kikkert .col_narrow {
@@ -2178,12 +2234,23 @@ dropdown-content a:hover {
         margin-bottom: 54px;
     }
 
+    #klik_produkt_kikkert .container_mini {
+        margin-bottom: 50px;
+    }
+
+    #klik_produkt_kikkert .col_wide {
+        margin-left: 33px;
+        margin-right: 33px;
+    }
+
 }
 
 #klik_produkt_kikkert #video1 {
     object-fit: cover;
     /*    pointer-events: none;*/
 }
+
+
 
 
 
@@ -2568,6 +2635,7 @@ footer {
 
 #footer4 h1 {
     font-size: 1.2rem;
+    text-align: start;
 }
 
 #footer4 a {
@@ -2700,11 +2768,13 @@ footer {
 
 }
 
-#levering_b h1 {
+#levering_b .container h1 {
     text-align: center;
 }
 
-#levering_b .footer
+
+
+
 /* ------------ slags og leverings vilkår ----------------*/
 
 
