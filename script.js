@@ -77,8 +77,3 @@ function clickMenuVoek() {
     document.querySelector("#menuknap").classList.remove("hide");
     document.querySelector("#menu").classList.add("hidden");
 }
-
-// Startsiden //
-
-
-// Startsiden //
