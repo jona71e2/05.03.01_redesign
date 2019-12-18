@@ -1875,18 +1875,18 @@ dropdown-content a:hover {
 /* klik kiggert **************/
 
 
-#klik_produkt {
+#klik_produkt_kikkert {
     padding: 1rem;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-#klik_produkt_b .sectionwrapper {
+#klik_produkt_kikkert .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
 }
 
-#klik_produkt_b .container {
+#klik_produkt_kikkert .container {
     display: flex;
     flex-wrap: wrap;
 
@@ -1896,7 +1896,7 @@ dropdown-content a:hover {
 }
 
 
-#klik_produkt_b .knap {
+#klik_produkt_kikkert .knap {
     flex-basis: 160px;
     flex-grow: 1;
 
@@ -1904,7 +1904,7 @@ dropdown-content a:hover {
     font-size: 0.8rem;
 }
 
-#klik_produkt_b .col_wide {
+#klik_produkt_kikkert .col_wide {
     display: flex;
     flex-wrap: wrap;
 
@@ -1912,13 +1912,13 @@ dropdown-content a:hover {
     flex-basis: 620px;
 }
 
-#klik_produkt_b .image {
+#klik_produkt_kikkert .image {
     flex-grow: 2;
     flex-basis: 810px;
 
 }
 
-#klik_produkt_b .image img {
+#klik_produkt_kikkert .image img {
     max-width: 100%;
     max-height: 100%;
     object-fit: scale-down;
@@ -1926,18 +1926,18 @@ dropdown-content a:hover {
 
 }
 
-#klik_produkt_b .container_mini {
+#klik_produkt_kikkert .container_mini {
     display: flex;
 
 }
 
 
-#klik_produkt_b .container_mini .image_mini {
+#klik_produkt_kikkert .container_mini .image_mini {
     margin: 2px;
     margin-top: 8px;
 }
 
-#klik_produkt_b .image_mini img {
+#klik_produkt_kikkert .image_mini img {
     max-width: 100%;
     max-height: 100%;
     object-fit: scale-down;
@@ -1947,7 +1947,7 @@ dropdown-content a:hover {
 
 
 
-#klik_produkt_b .col_narrow {
+#klik_produkt_kikkert .col_narrow {
 
     flex-wrap: wrap;
 
@@ -1958,22 +1958,22 @@ dropdown-content a:hover {
 
 /* media ****/
 @media only screen and (min-width: 375px) {
-    #klik_produkt_b .knap {
+    #klik_produkt_kikkert .knap {
         margin: 9px;
         margin-bottom: 17px;
     }
 
-    #klik_produkt_b h1 {
+    #klik_produkt_kikkert h1 {
         margin-left: 33px;
         margin-bottom: 0px;
     }
 
-    #klik_produkt_b .text {
+    #klik_produkt_kikkert .text {
         margin-left: 33px;
         margin-right: 33px;
     }
 
-    #klik_produkt .forhandler_knap {
+    #klik_produkt_kikkert .forhandler_knap {
         flex-grow: 1;
         flex-basis: 375px;
 
@@ -1989,18 +1989,18 @@ dropdown-content a:hover {
         padding: 8px;
     }
 
-    #klik_produkt_b .col_wide {
+    #klik_produkt_kikkert .col_wide {
         margin-left: 33px;
         margin-right: 33px;
     }
 
-    #klik_produkt_b .col_wide .image {
-        background-image: url(billeder_hojformat/roar/roar.png);
+    #klik_produkt_kikkert .col_wide .image {
+        background-image: url(billeder_hojformat/toke_3/Binocular%20carrying%20system_toke_aaben%202.png);
         background-size: 100%;
         height: 464px;
     }
 
-    #klik_produkt_b .col_wide .image_mini {}
+    #klik_produkt_kikkert .col_wide .image_mini {}
 
 
 
@@ -2008,23 +2008,29 @@ dropdown-content a:hover {
 }
 
 @media only screen and (min-width: 500px) {
-    #klik_produkt_b .col_wide .image {
-        height: 504px;
-        background-image: url(billeder_bredformat/roar/raor_b.png);
+    #klik_produkt_kikkert .col_wide .image {
+        height: 478px;
+        background-image: url(billeder_bredformat/kiggert/kiggert_b.png);
         background-size: 100%;
 
     }
 
-    #klik_produkt_b .image_mini {
+    #klik_produkt_kikkert button {
+        top: 61vw;
+        left: 54vw;
+        position: absolute;
+    }
+
+    #klik_produkt_kikkert .image_mini {
         height: 167px;
     }
 
-    #klik_produkt_b .image_mini img {
+    #klik_produkt_kikkert .image_mini img {
         object-fit: cover;
         object-position: 50% 25%;
     }
 
-    #klik_produkt_b .col_narrow {
+    #klik_produkt_kikkert .col_narrow {
         margin-right: 33px;
     }
 
@@ -2034,6 +2040,18 @@ dropdown-content a:hover {
     }
 
 }
+
+#klik_produkt_kikkert #video1 {
+    object-fit: cover;
+    pointer-events: none;
+}
+
+
+
+#klik_produkt_kikkert .overlay {}
+
+#klik_produkt_kikkert .overlay img {}
+
 
 
 
