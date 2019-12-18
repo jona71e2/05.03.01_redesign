@@ -1583,6 +1583,11 @@ dropdown-content a:hover {
         margin-top: -3px;
     }
 
+    #produktview_b .content_box {
+        margin: 6px;
+        flex-basis: 220px;
+    }
+
 
 
 
