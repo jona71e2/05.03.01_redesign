@@ -1879,6 +1879,221 @@ dropdown-content a:hover {
 }
 
 
+/* klik kiggert **************/
+
+
+#klik_produkt {
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#klik_produkt_b .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#klik_produkt_b .container {
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-grow: 1;
+    flex-basis: 960px;
+    flex-direction: row;
+}
+
+
+#klik_produkt_b .knap {
+    flex-basis: 160px;
+    flex-grow: 1;
+
+    color: black;
+    font-size: 0.8rem;
+}
+
+#klik_produkt_b .col_wide {
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-grow: 2;
+    flex-basis: 620px;
+}
+
+#klik_produkt_b .image {
+    flex-grow: 2;
+    flex-basis: 810px;
+
+}
+
+#klik_produkt_b .image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: scale-down;
+
+
+}
+
+#klik_produkt_b .container_mini {
+    display: flex;
+
+}
+
+
+#klik_produkt_b .container_mini .image_mini {
+    margin: 2px;
+    margin-top: 8px;
+}
+
+#klik_produkt_b .image_mini img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: scale-down;
+
+
+}
+
+
+
+#klik_produkt_b .col_narrow {
+
+    flex-wrap: wrap;
+
+    flex-grow: 1;
+    flex-basis: 270px;
+
+}
+
+/* media ****/
+@media only screen and (min-width: 375px) {
+    #klik_produkt_b .knap {
+        margin: 9px;
+        margin-bottom: 17px;
+    }
+
+    #klik_produkt_b h1 {
+        margin-left: 33px;
+        margin-bottom: 0px;
+    }
+
+    #klik_produkt_b .text {
+        margin-left: 33px;
+        margin-right: 33px;
+    }
+
+    #klik_produkt .forhandler_knap {
+        flex-grow: 1;
+        flex-basis: 375px;
+
+        text-align: center;
+
+        margin-left: 33px;
+        margin-right: 33px;
+        margin-bottom: 16px;
+        margin-top: 5px;
+        background-color: #252617;
+        color: white;
+        font-size: 1.5rem;
+        padding: 8px;
+    }
+
+    #klik_produkt_b .col_wide {
+        margin-left: 33px;
+        margin-right: 33px;
+    }
+
+    #klik_produkt_b .col_wide .image {
+        background-image: url(billeder_hojformat/roar/roar.png);
+        background-size: 100%;
+        height: 464px;
+    }
+
+    #klik_produkt_b .col_wide .image_mini {}
+
+
+
+
+}
+
+@media only screen and (min-width: 500px) {
+    #klik_produkt_b .col_wide .image {
+        height: 504px;
+        background-image: url(billeder_bredformat/roar/raor_b.png);
+        background-size: 100%;
+
+    }
+
+    #klik_produkt_b .image_mini {
+        height: 167px;
+    }
+
+    #klik_produkt_b .image_mini img {
+        object-fit: cover;
+        object-position: 50% 25%;
+    }
+
+    #klik_produkt_b .col_narrow {
+        margin-right: 33px;
+    }
+
+    #klik_produkt .forhandler_knap {
+        font-size: 1.5rem;
+        padding: 8px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
