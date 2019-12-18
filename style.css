@@ -1189,14 +1189,6 @@ select {
 }
 */
 
-#jagtviden .splash_image {
-    /*
-    display: flex;
-    flex-wrap: wrap;
-*/
-    position: fixed;
-}
-
 
 
 #jagtviden {
@@ -1277,7 +1269,7 @@ select {
     text-align: center;
     margin: 0 2rem 2rem 2rem;
     font-size: 1.1rem;
-    line-height: 1rem;
+    line-height: 1.7rem;
 }
 
 
@@ -2380,53 +2372,86 @@ dropdown-content a:hover {
 
 .footer_container {
     width: 100%;
-    background-color: #555936;
+    background-color: #252617;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     color: #ffffff;
+}
 
+
+#footer1 p {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    margin: 2.6vw 0 0 0;
+    padding: 0 0 0 0.8vw;
+}
+
+
+#footer1 img {
+    max-width: 70%;
 }
 
 
 #footer1 {
-    flex-basis: 300px;
+    flex-basis: 500px;
     flex-grow: 1;
     margin: 1vw;
     padding: 1vw;
     max-width: 400px;
+
 }
 
-#footer1 li {
+
+#footer2 {
+    flex-basis: 500px;
+    flex-grow: 1;
+    margin: 1vw;
+    padding: 1vw;
+    max-width: 300px;
+
+}
+
+#footer2 a {
+    padding: 0 0 1rem 0;
+}
+
+
+#footer2 li {
     list-style-type: none;
     margin: 0;
     padding: 0;
-
 }
 
-#footer1 li a {
+
+#footer2 li a {
     color: #ffffff;
 }
 
-#footer1 ul {
+
+#footer2 ul {
     padding-left: 0;
 }
 
-#footer2 {
-    flex-basis: 600px;
+
+#footer3 {
+    flex-basis: 500px;
     flex-grow: 1;
     margin: 1vw;
     padding: 1vw;
     max-width: 400px;
+
+    text-align: center;
 }
 
-#footer2 img {
+
+#footer3 img {
     width: 70%;
 }
 
 
 footer {
-    background-color: #555936;
+    background-color: #252617;
     text-align: center;
     color: #ffffff;
 }
