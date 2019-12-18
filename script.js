@@ -100,3 +100,18 @@ window.onclick = function (event) {
 //function klikProdukt(){
 //
 //}
+
+
+
+document.querySelector("#burgericon").addEventListener("click", toggleMenu);
+
+
+function toggleMenu() {
+    console.log("toggleMenu");
+    let x = document.getElementById("myTopnav");
+    if (x.className === "menu_top") {
+        x.className += " responsive";
+    } else {
+        x.className = "menu_top";
+    }
+}
