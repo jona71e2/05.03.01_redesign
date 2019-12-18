@@ -482,6 +482,10 @@ p {
     color: white;
 }
 
+#startside #button_workbook a {
+    color: white;
+}
+
 #button_workbook p {
     flex-grow: 1;
     flex-basis: 90px;
