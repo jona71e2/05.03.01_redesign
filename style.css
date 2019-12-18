@@ -389,14 +389,12 @@ p {
 
 #splash {
     width: 100vw;
-    height: 90vh;
+    height: 65SSvh;
 
     background-size: cover;
     background-position: 0 35%;
     max-width: none;
     background-attachment: fixed;
-
-
 }
 
 
@@ -404,58 +402,97 @@ p {
     padding: 1rem;
     max-width: 1200px;
     margin: 0 auto;
+
 }
 
+/*-----Font-----*/
 #startside h1 {
     text-align: center;
     font-size: 2.4rem;
+    margin-top: 0;
+    margin-bottom: 2vw;
 
     font-family: ten-oldstyle, serif;
     font-weight: 600;
     font-style: normal;
-
 }
 
-#startside a:link {
-    text-decoration: none;
-    color: black;
-}
-
-#startside a:visited {
-    text-decoration: none;
-    color: black;
-}
-
-
-#startside a:link {
-    text-decoration: none;
-    color: black;
-}
-
-#startside a:visited {
-    text-decoration: none;
-    color: black;
-}
-
-#startside h2 {
+.workbook_text h1 {
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 2rem;
+    padding-bottom: 3vw;
+}
+
+#startside h2 .workbook_text {
+    font-size: 2rem;
 }
 
 #startside p {
-    font-size: 0.8rem;
+    font-size: 1rem;
+    text-align: left;
 }
+
+#startside .infotext p {
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+
+#startside a:link {
+    text-decoration: none;
+    color: black;
+}
+
+#startside a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+
+#startside a:link {
+    text-decoration: none;
+    color: black;
+}
+
+#startside a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.workbook_text a:link {
+    left: 50%;
+
+
+}
+
+/*-----Font slut-----*/
 
 #startside .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
 }
 
+/*-----infoboks-----*/
+#startside #container_info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#startside #infoboks {
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+
+#startside #infobillede {
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+
+/*-----infoboks slut-----*/
+
+/*-----Produktkatalog-----*/
+
 #startside .container {
-    /*
-    width: 300vw;
-    height: 55vh;
-*/
     flex-grow: 1;
     flex-basis: 1000px;
     margin-bottom: 5vw;
@@ -511,46 +548,81 @@ p {
     flex-grow: 1;
     flex-basis: 60px;
     text-align: center;
+    background-color: #fff;
 }
 
 
 #startside .container .img1 {
-    background-image: url(nina_billeder_startside/arn_front.png);
+    background-image: url(nina_billeder_startside/arn_front.jpg);
     background-repeat: no-repeat;
 }
 
 
 #startside .container .img2 {
-    background-image: url(nina_billeder_startside/Binocular%20carrying%20system_toke_aaben.png);
+    background-image: url(nina_billeder_startside/Binocular%20carrying%20system_toke_aaben.jpg);
     background-repeat: no-repeat;
 }
 
 #startside .container .img3 {
-    background-image: url(nina_billeder_startside/fenris_logo.png);
+    background-image: url(nina_billeder_startside/fenris_logo.jpg);
     background-repeat: no-repeat;
 }
 
 #startside .container .img4 {
-    background-image: url(nina_billeder_startside/raor_b.png);
+    background-image: url(nina_billeder_startside/raor_b.jpg);
     background-repeat: no-repeat;
+}
+
+/*-----Produktkatalog SLUT-----*/
+
+/*-----Workbook-----*/
+
+#startside .workbook_container {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 1200px;
+    height: 450px;
+}
+
+
+#startside .workbook_billede {
+    flex-grow: 1;
+    flex-basis: 200px;
+
+    background-color: red;
+}
+
+
+#startside .workbook_text {
+    flex-grow: 3;
+    flex-basis: 200px;
+
+    align-content: center;
+
+
 }
 
 
 
+
+
+
+
+
+
+
+
+/*-----Workbook SLUT-----*/
+
+/*-----Find forhandler-----*/
 #startside .col2 {
 
     flex-grow: 1;
     flex-basis: 300px;
     margin-bottom: 7vw;
     padding: 1vw;
-
     height: 80vh;
-    /*
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-*/
 }
 
 #startside .col2 .gmap_container {
@@ -607,7 +679,7 @@ p {
     font-weight: 300;
 }
 
-
+/*-----Find forhandler SLUT-----*/
 
 
 
