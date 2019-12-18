@@ -205,6 +205,7 @@ p {
 
     align-self: center;
     text-align: center;
+    overflow: hidden;
 }
 
 #vaelg_land .image {
@@ -267,6 +268,14 @@ p {
         margin-bottom: 150px;
     }
 
+    #vaelg_land a:link {
+        text-decoration: none;
+        color: black;
+    }
+
+
+
+
 }
 
 #vaelg_land a:link {
@@ -274,15 +283,17 @@ p {
     color: black;
 }
 
-#vaelg_landn a:visited {
+#vaelg_land a:visited {
     text-decoration: none;
     color: black;
-    background-color: #252617;
+    background-color: black;
 }
 
 
+
 #vaelg_land a:hover {
-    background-color: #252617;
+    background-color: black;
+
     color: white;
 }
 
@@ -372,7 +383,7 @@ p {
 
 
 
-/*           Vælg land       slut       */
+/*           Vælg land       slut
 /*           Startsiden                 */
 
 
