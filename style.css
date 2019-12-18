@@ -2568,6 +2568,7 @@ footer {
 
 #footer4 h1 {
     font-size: 1.2rem;
+    text-align: start;
 }
 
 #footer4 a {
@@ -2700,11 +2701,13 @@ footer {
 
 }
 
-#levering_b h1 {
+#levering_b .container h1 {
     text-align: center;
 }
 
-#levering_b .footer
+
+
+
 /* ------------ slags og leverings vilkår ----------------*/
 
 
