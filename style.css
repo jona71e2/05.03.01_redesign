@@ -432,6 +432,10 @@ p {
     font-style: normal;
 }
 
+#startside h3 {
+    margin-top: 11px;
+}
+
 /*
 #startside .workbook_text h2 {
     text-align: center;
@@ -451,6 +455,7 @@ p {
 #startside .infotext p {
     font-size: 0.7rem;
     text-align: center;
+    margin-bottom: 5px;
 }
 
 
@@ -2159,7 +2164,7 @@ klik_produkt_b {
 
 #klik_produkt_kikkert a {
     text-decoration: none;
-    color: black;
+/*    color: black;*/
 }
 
 
@@ -2880,6 +2885,14 @@ footer {
 }
 
 
+/*
+#video1 {
+    background: transparent url('video_kikkert/stilbillede.png') no-repeat 0 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}*/
 
 
 
