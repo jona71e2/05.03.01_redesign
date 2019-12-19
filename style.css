@@ -646,6 +646,12 @@ p {
     justify-content: center;
 }
 
+.h2_workbook {
+    flex-grow: 1;
+    flex-basis: 100px;
+    justify-content: center;
+}
+
 /*-----Workbook SLUT-----*/
 
 /*-----Find forhandler-----*/
