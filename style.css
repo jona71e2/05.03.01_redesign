@@ -551,6 +551,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     width: 240px;
+    margin-bottom: 5vw;
 
     justify-content: space-between;
     flex-direction: column;
