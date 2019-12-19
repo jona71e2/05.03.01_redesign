@@ -17,7 +17,7 @@ img {
 
 header {
     position: sticky;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 
@@ -31,6 +31,8 @@ header {
     font-family: ten-oldstyle, serif;
 
 }
+
+
 
 @media only screen and (min-width: 600px) {
     #menu {
@@ -215,7 +217,7 @@ p {
 
 @media only screen and (min-width: 375px) {
     #vaelg_land .col {
-        flex-direction: column;
+        /*        flex-direction: column;*/
     }
 
     #vaelg_land .land {
@@ -478,6 +480,10 @@ p {
 }
 
 #button_workbook a:visited {
+    color: white;
+}
+
+#startside #button_workbook a {
     color: white;
 }
 
@@ -2191,13 +2197,6 @@ klik_produkt_b {
     #klik_produkt_kikkert .image_mini img {
         height: 125.2px;
     }
-
-
-
-
-
-
-
 }
 
 @media only screen and (min-width: 500px) {
